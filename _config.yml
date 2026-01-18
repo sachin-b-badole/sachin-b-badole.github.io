@@ -9,14 +9,14 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Sachin B. Badole"     # "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Sachin B. Badole"
+description              : &description "I am a PhD Candidate in Environmental Economics at the University of Delaware. Currently, I am studying consumer preferences for residential rooftop solar adoption, electric vehicles, and public support for wind and solar farm development in the USA. I am also exploring the relationship between residential property values, the adoption of renewable technologies, and water quality. My research focuses on homeowners’ adoption of rooftop solar and elctric vehicles (EVs), the capitalization of environmental risks (such as PFAS contamination) into property values."   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://sachin-b-badole.github.io   # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+                                                               # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "sachin-b-badole/sachin-b-badole.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
