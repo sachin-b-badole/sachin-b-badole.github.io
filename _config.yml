@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Sachin B. Badole"     # "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Sachin B. Badole"
-description              : &description "Welcome! I am a Ph.D. candidate in Environmental Economics at the University of Delaware, studying how households value environmental amenities and adopt renewable energy technologies, with a focus on rooftop solar, electric vehicles, water quality, and behavioral responses to policy incentives. \nLine I use hedonic models, the stated-preference approach, and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My goal is to provide evidence that improves the effectiveness of environmental and energy policies and enhances understanding of consumer adoption, valuation, and risk perceptions."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Welcome! I am a Ph.D. candidate in Environmental Economics at the University of Delaware."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://sachin-b-badole.github.io   # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                                # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,24 +24,24 @@ repository               : "sachin-b-badole/sachin-b-badole.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Sachin B. Badole"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Environmental Economics Ph.D. Candidate at UD"
+  location         : "Newark, Delaware, USA"
+  employer         : "University of Delaware"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "sbadole@udel.edu" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=fV_A-S8AAAAJ&hl=en&authuser=1"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0008-4273-4631"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "www.linkedin.com/in/sachin-b-badole-6920b6a2"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -74,7 +74,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "https://x.com/SachinBadole77"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
