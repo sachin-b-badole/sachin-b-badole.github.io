@@ -23,7 +23,7 @@ repository               : "sachin-b-badole/sachin-b-badole.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/Sachin_IMG_0138.jpg"
+  avatar           : "Sachin_IMG_0138.jpg"
   name             : "Sachin B. Badole"
   pronouns         : # example: "she/her"  
   bio              : "Environmental Economist"
