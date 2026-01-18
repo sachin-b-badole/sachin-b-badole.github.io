@@ -7,6 +7,15 @@ redirect_from:
   - /about.html
 ---
 
+Welcome! I am a Ph.D. candidate in Environmental Economics at the University of Delaware, studying how households value environmental amenities and adopt renewable energy technologies, with a focus on rooftop solar, electric vehicles, water quality, and behavioral responses to policy incentives.
+
+I use hedonic models, the stated-preference approach, and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My goal is to provide evidence that improves the effectiveness of environmental and energy policies and enhances understanding of consumer adoption, valuation, and risk perceptions.
+
+I am on the 2026-2027 job market. You can find my CV here.  
+
+
+=========
+
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
