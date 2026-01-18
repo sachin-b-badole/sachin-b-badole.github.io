@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Sachin B. Badole"     # "Your Name / Site Title"
+title                    : "Sachin's Homepage"     # "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Sachin B. Badole"
 description              : &description "Welcome! I am a Ph.D. candidate in Environmental Economics at the University of Delaware."   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Sachin B. Badole"
   pronouns         : # example: "she/her"  
-  bio              : "Environmental Economics Ph.D. Candidate at UD"
+  bio              : "Environmental Economist"
   location         : "Newark, DE, USA"
   employer         : "University of Delaware"
   uri              : # URL
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : # "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
