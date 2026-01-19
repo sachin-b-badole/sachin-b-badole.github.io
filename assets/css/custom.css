@@ -110,6 +110,37 @@ img {
   text-decoration: none !important;
 }
 
+/* ===== Top navigation: center menu, hide site title and icons ===== */
+
+/* Hide the site title (name) and any header email we added earlier */
+.site-title,
+.masthead__email {
+  display: none !important;
+}
+
+/* Center the nav bar */
+.greedy-nav {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* Make menu items horizontal and nicely spaced */
+.greedy-nav .visible-links {
+  display: flex !important;
+  gap: 2rem;                     /* space between Home / Research / Talks / ... */
+}
+
+/* Remove hamburger / gear / extra icons */
+.greedy-nav__toggle,
+.masthead__icon {
+  display: none !important;
+}
+
+
+
+
+
 
 
 
