@@ -104,6 +104,11 @@ img {
   margin-right: 4px;
 }
 
+/*Change email id color*/
+.author-email-line a {
+  color: #0366d6 !important;   /* GitHub blue */
+}
+
 
 
 
