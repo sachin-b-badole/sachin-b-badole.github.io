@@ -111,6 +111,36 @@ img {
 }
 
 
+/* Center the entire masthead (site title + nav menu) */
+.masthead__inner-wrap {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+
+/* Unfloat navigation so it can center */
+.masthead__menu {
+  float: none !important;
+}
+
+/* Slight balance spacing for menu items */
+.masthead__menu-item {
+  margin: 0 0.75rem !important;
+}
+
+/* Center site title text */
+.site-title {
+  margin: 0 1.25rem !important;
+  padding: 0 !important;
+  text-align: center !important;
+}
+
+/* Remove default left alignment behavior */
+.masthead {
+  text-align: center !important;
+}
+
 
 
 
