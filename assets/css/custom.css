@@ -16,17 +16,17 @@ img.u-photo {
 
 /* Author avatar container: expand size */
 .author__avatar {
-  width: 250px !important;
+  width: 200px !important;
   height: auto !important;
-  max-width: 250px !important;
+  max-width: 200px !important;
   text-align: center !important;
 }
 
 /* Avatar image itself */
 .author__avatar img,
 img.u-photo {
-  width: 250px !important;
-  max-width: 250px !important;
+  width: 200px !important;
+  max-width: 200px !important;
   height: auto !important;
   border-radius: 0 !important; /* keeps it square */
   object-fit: contain !important;
