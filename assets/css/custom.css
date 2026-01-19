@@ -95,17 +95,13 @@ img {
   }
 }
 
-/* Keep email icon and text on one line */
-.author__urls li,
-.author__urls li span,
-.author__urls li a,
-.author__urls li i {
-  display: inline-block !important;
-  vertical-align: middle !important;
-}
 
-.author__urls li {
-  margin-bottom: 0.15rem !important;
+/* Keep email icon and text on one line */
+.author__urls li a {
+  display: inline !important;
+}
+.author__urls li i {
+  margin-right: 4px;
 }
 
 
