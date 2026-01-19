@@ -366,7 +366,5 @@ compress_html:
     envs: development
 
 
-# Remove setteing / light  sign
-enable_theme_toggle: false
-dark_theme: false
+
 
