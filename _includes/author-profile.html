@@ -46,14 +46,22 @@
             <a href="mailto:{{ author.email }}">{{ author.email }}</a>
           </span>
         </li>
-      {% endif %} -->
+      {% endif %} 
 
       {% if author.email %}
         <li class="author__desktop">
           <i class="fas fa-fw fa-envelope-square icon-pad-right" aria-hidden="true"></i>
           <a href="mailto:{{ author.email }}">{{ author.email }}</a>
         </li>
+      {% endif %}  -->
+
+      {% if author.email %}
+        <li class="author__desktop author-email-line">
+          <i class="fas fa-fw fa-envelope-square icon-pad-right" aria-hidden="true"></i>
+          <a href="mailto:{{ author.email }}">Email: {{ author.email }}</a>
+        </li>
       {% endif %}
+
 
 
       
