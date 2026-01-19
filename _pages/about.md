@@ -5,26 +5,27 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-sidebar_position: right
-sidebar:
-  - title: "Research Interests"
-    text: |
-      • Energy Economics  
-      • Experimental Economics  
-      • Environmental Valuation  
-      • Urban Economics
-
-  - title: "Education"
-    text: |
-      **Ph.D. in Environmental Economics** (expected 2027)  
-      University of Delaware, USA  
-
-      **M.S. in Economics**, 2021  
-      University of Wisconsin–Madison, USA  
-
-      **B.Tech. in Petrochemical Engineering**, 2015  
-      Dr. B.A.T.U., Lonere, India
 ---
+
+<div class="right-column-box">
+  <h3>Research Interests</h3>
+  <ul>
+    <li>Energy Economics</li>
+    <li>Experimental Economics</li>
+    <li>Environmental Valuation</li>
+    <li>Urban Economics</li>
+  </ul>
+
+  <h3>Education</h3>
+  <p><strong>Ph.D. in Environmental Economics</strong> (expected 2027)<br>
+  University of Delaware, USA</p>
+
+  <p><strong>M.S. in Economics</strong>, 2021<br>
+  University of Wisconsin–Madison, USA</p>
+
+  <p><strong>B.Tech. in Petrochemical Engineering</strong>, 2015<br>
+  Dr. B.A.T.U., Lonere, India</p>
+</div>
 
 I am a Ph.D. candidate in Environmental Economics at the University of Delaware, studying how households value environmental amenities and adopt renewable energy technologies, with a focus on rooftop solar, electric vehicles, water quality, and behavioral responses to policy incentives.
 
