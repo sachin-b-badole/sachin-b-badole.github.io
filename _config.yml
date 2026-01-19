@@ -30,9 +30,7 @@ author:
   location         : "Newark, DE, USA"
   employer         : "University of Delaware"
   uri              : # URL
-  #email            : "sbadole@udel.edu" 
-
-author:
+  email            : "sbadole@udel.edu" 
   links:
     - label: "sbadole@udel.edu"
       icon: "fas fa-envelope"
