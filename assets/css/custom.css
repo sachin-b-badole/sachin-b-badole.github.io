@@ -1,12 +1,15 @@
 
-/* Make profile photo square */
-.avatar, .avatar img, .profile-avatar img, .author-avatar img {
-  border-radius: 0 !important;
-}
-
-/* Increase size */
-.profile-avatar img, .author-avatar img {
-  width: 200px !important;
+/* Make sidebar avatar square and larger */
+.author__avatar img,
+img.u-photo {
+  border-radius: 0 !important;   /* square */
+  width: 180px !important;       /* change this number for size */
   height: auto !important;
   object-fit: contain !important;
 }
+
+/* Optional: center the avatar block */
+.author__avatar {
+  text-align: center;
+}
+
