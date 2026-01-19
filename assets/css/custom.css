@@ -1,5 +1,5 @@
 
-/* Make sidebar avatar square and larger */
+/* Make sidebar avatar square and larger 
 .author__avatar img,
 img.u-photo {
   border-radius: 0 !important;   /* square */
@@ -7,9 +7,33 @@ img.u-photo {
   height: auto !important;
   object-fit: contain !important;
 }
-
-/* Optional: center the avatar block */
+*/
+/* Optional: center the avatar block 
 .author__avatar {
   text-align: center;
+}
+*/
+
+/* Author avatar container: expand size */
+.author__avatar {
+  width: 300px !important;
+  height: auto !important;
+  max-width: 300px !important;
+  text-align: center !important;
+}
+
+/* Avatar image itself */
+.author__avatar img,
+img.u-photo {
+  width: 300px !important;
+  max-width: 300px !important;
+  height: auto !important;
+  border-radius: 0 !important; /* keeps it square */
+  object-fit: contain !important;
+}
+
+/* Override global image scaling */
+img {
+  max-width: none !important;
 }
 
