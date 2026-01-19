@@ -1,0 +1,12 @@
+
+/* Make profile photo square */
+.avatar, .avatar img, .profile-avatar img, .author-avatar img {
+  border-radius: 0 !important;
+}
+
+/* Increase size */
+.profile-avatar img, .author-avatar img {
+  width: 200px !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
