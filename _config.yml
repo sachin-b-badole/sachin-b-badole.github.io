@@ -32,8 +32,8 @@ author:
   uri              : # URL
   email            : "sbadole@udel.edu" 
   links:
-    - label: "sbadole@udel.edu"
-      icon: "fas fa-envelope"
+    - icon: email
+      label: "sbadole@udel.edu"
       url: "mailto:sbadole@udel.edu"
 
   # Academic websites
