@@ -41,11 +41,12 @@
       
       {% if author.email %}
         <li class="author__desktop">
-        <i class="fas fa-fw fa-envelope-square icon-pad-right" aria-hidden="true"></i>
-          <a href="mailto:{{ author.email }}">{{ author.email }}</a>
+          <span class="author-email-inline">  
+            <i class="fas fa-fw fa-envelope-square icon-pad-right" aria-hidden="true"></i>
+            <a href="mailto:{{ author.email }}">{{ author.email }}</a>
+          </span>
         </li>
-        {% endif %}
-
+      {% endif %}
 
       
       <!-- Font Awesome and Academicons icons / Academic websites -->
