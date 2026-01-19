@@ -31,7 +31,7 @@ I am a Ph.D. candidate in Environmental Economics at the University of Delaware,
 
 I use hedonic models, the stated-preference approach, and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My goal is to provide evidence that improves the effectiveness of environmental and energy policies and enhances understanding of consumer adoption, valuation, and risk perceptions.
 
-I am on the 2026-2027 job market. You can find my CV here.  
+I am on the 2026-2027 job market.  
 
 
 
