@@ -110,19 +110,6 @@ img {
   text-decoration: none !important;
 }
 
-/* center tabls */
-.masthead__menu-item {
-  display: block !important;
-  text-align: center !important;
-  margin: 0.4rem 0 !important;
-}
-
-.masthead__inner-wrap {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
 
 
 
