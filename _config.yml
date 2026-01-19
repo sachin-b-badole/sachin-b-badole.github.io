@@ -366,10 +366,7 @@ compress_html:
     envs: development
 
 
-# Remove setteing / light sign
-minimal_mistakes:
-  github:
-    show_edit_link: false
-    show_star_link: false
-    
-show_edit_link: false
+# Remove setteing / light  sign
+enable_theme_toggle: false
+dark_theme: false
+
