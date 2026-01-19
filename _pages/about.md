@@ -13,6 +13,30 @@ I use hedonic models, the stated-preference approach, and laboratory/survey expe
 
 I am on the 2026-2027 job market. You can find my CV here.  
 
+# Right-hand sidebar content
+sidebar:
+  - title: "Research Interests"
+    text: |
+      • Energy Economics  
+      • Experimental Economics  
+      • Environmental Valuation  
+      • Urban Economics
+
+  - title: "Education"
+    text: |
+      **Ph.D. in Environmental Economics** (expected 2027)  
+      University of Delaware, USA  
+
+      **M.S. in Economics**, 2021  
+      University of Wisconsin–Madison, USA  
+
+      **B.Tech. in Petrochemical Engineering**, 2015  
+      Dr. B.A.T.U., Lonere, India
+
+
+
+
+
 {% comment %}
 #Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites
 
