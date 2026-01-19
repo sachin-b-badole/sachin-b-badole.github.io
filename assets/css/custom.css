@@ -142,6 +142,10 @@ img {
 }
 
 
+/* Hide the dark-mode moon icon (last item in the top nav) */
+.greedy-nav .visible-links > li:last-child {
+  display: none !important;
+}
 
 
 
