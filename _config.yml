@@ -32,6 +32,13 @@ author:
   uri              : # URL
   email            : "sbadole@udel.edu" 
 
+.author__avatar img {
+  border-radius: 0 !important;   /* makes it square */
+  width: 150px !important;       /* adjust size */
+  height: auto !important;
+}
+
+
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
