@@ -44,6 +44,31 @@ img {
 }
 
 /* Force custom sidebar to right side */
-.page__sidebar {
-  float: right !important;
+/*.page__sidebar {*/
+/*  float: right !important;
+}*/
+
+/* Right-side column on About page */
+.right-column-box {
+  float: right;
+  width: 260px;           /* adjust width if you like */
+  margin-left: 2rem;
+  padding-left: 1.5rem;
+  border-left: 1px solid #ddd;
+  font-size: 0.9em;
 }
+
+/* Make layout mobile-friendly */
+@media (max-width: 900px) {
+  .right-column-box {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1.5rem;
+    padding-left: 0;
+    border-left: none;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+  }
+}
+
