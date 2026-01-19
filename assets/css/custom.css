@@ -131,13 +131,15 @@ img {
   gap: 2rem;                     /* space between Home / Research / Talks / ... */
 }
 
-/* Remove hamburger / gear / extra icons */
-.greedy-nav__toggle,
-.masthead__icon {
+
+/* Remove dark mode / theme toggle icon */
+.theme-switch,
+.theme-toggle,
+#theme-toggle,
+.moon,
+.sun {
   display: none !important;
 }
-
-
 
 
 
