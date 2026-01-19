@@ -189,36 +189,59 @@ img {
 }
 
 /* Center all content*/
-/* Center the entire page layout (desktop + laptop) */
+/* Center overall page on larger screens */
 .wrap {
-  max-width: 1350px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  max-width: 1050px !important;   /* slightly narrower than default so there's less empty right space */
+  margin: 0 auto !important;      /* centers the whole layout */
 }
 
-/* Balance the three columns */
-.page {
-  display: flex;
-  justify-content: center !important;
-}
-
-/* Ensure main bio column expands */
+/* Make the middle bio column a bit wider */
 .page__content {
-  flex-grow: 1;
-  min-width: 520px;
+  max-width: 720px !important;    /* default is ~700; this widens the bio text a bit */
 }
 
-/* Left sidebar (author) */
-.sidebar {
-  min-width: 260px;
-  margin-right: 1.5rem;
-}
 
-/* Right column (Research Interests + Education) */
+/* Layout for right-hand Research Interests / Education column */
 .right-column-box {
-  min-width: 260px;
+  float: right;
+  width: 220px !important;        /* narrower sidebar */
   margin-left: 1.5rem;
+  padding-left: 1.25rem;
+  border-left: 1px solid #ddd;
 }
+
+.right-column-box {
+  float: right;
+  width: 220px !important;
+  margin-left: 1.5rem;
+  padding-left: 1.25rem;
+  border-left: 1px solid #ddd;
+}
+
+/* Job-market sidebar typography */
+.right-column-box {
+  font-size: 0.88rem !important;
+  line-height: 1.28 !important;
+}
+/* ... h3, p, li rules ... */
+
+@media (max-width: 900px) {
+  .right-column-box {
+    float: none;
+    width: 100% !important;
+    margin-left: 0;
+    margin-top: 1.5rem;
+    padding-left: 0;
+    border-left: none;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+  }
+}
+
+
+
+
+
 
 
 
