@@ -107,6 +107,7 @@ img {
 /*Change email id color*/
 .author-email-line a {
   color: #0366d6 !important;   /* GitHub blue */
+  text-decoration: none !important;
 }
 
 
