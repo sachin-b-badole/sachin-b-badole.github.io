@@ -16,7 +16,7 @@ img.u-photo {
 
 /* Author avatar container: expand size */
 .author__avatar {
-  width: 300px !important;
+  width: 250px !important;
   height: auto !important;
   max-width: 300px !important;
   text-align: center !important;
@@ -25,7 +25,7 @@ img.u-photo {
 /* Avatar image itself */
 .author__avatar img,
 img.u-photo {
-  width: 300px !important;
+  width: 250px !important;
   max-width: 300px !important;
   height: auto !important;
   border-radius: 0 !important; /* keeps it square */
