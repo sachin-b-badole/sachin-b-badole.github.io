@@ -3,9 +3,9 @@
 .author__avatar img,
 img.u-photo {
   border-radius: 0 !important;   /* square */
-  width: 300px !important;       /* change this number for size */
-  height: auto !important;
-  object-fit: contain !important;
+/*  width: 300px !important;       /* change this number for size */
+/*  height: auto !important;
+/*  object-fit: contain !important;
 }
 */
 /* Optional: center the avatar block 
