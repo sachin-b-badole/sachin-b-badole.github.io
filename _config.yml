@@ -364,3 +364,12 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+# Remove setteing / light sign
+minimal_mistakes:
+  github:
+    show_edit_link: false
+    show_star_link: false
+    
+show_edit_link: false
