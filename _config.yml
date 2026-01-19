@@ -31,7 +31,10 @@ author:
   employer         : "University of Delaware"
   uri              : # URL
   email            : "sbadole@udel.edu" 
-
+  links:
+    - label: "sbadole@udel.edu"
+      icon: "fas fa-envelope"
+      url: "mailto:sbadole@udel.edu"
 
   # Academic websites
   academia         : # URL
