@@ -7,44 +7,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div class="about-layout">
-
-  <div class="about-main">
-    <h1>Welcome! I am Sachin.</h1>
-
-    <p>I am a Ph.D. candidate in Environmental Economics at the University of Delaware, studying how households value environmental amenities and adopt renewable energy technologies, with a focus on rooftop solar, electric vehicles, water quality, and behavioral responses to policy incentives.</p>
-
-    <p>I use hedonic models, the stated-preference approach, and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My goal is to provide evidence that improves the effectiveness of environmental and energy policies and enhances understanding of consumer adoption, valuation, and risk perceptions.</p>
-
-    <p>I am on the 2026–2027 job market. You can find my CV here.</p>
-  </div>
-
-  <aside class="about-aside">
-    <h3>Research Interests</h3>
-    <ul>
-      <li>Energy Economics</li>
-      <li>Experimental Economics</li>
-      <li>Environmental Valuation</li>
-      <li>Urban Economics</li>
-    </ul>
-
-    <h3>Education</h3>
-    <p><strong>Ph.D. in Environmental Economics</strong> (expected 2027)<br>
-    University of Delaware, USA</p>
-
-    <p><strong>M.S. in Economics</strong>, 2021<br>
-    University of Wisconsin–Madison, USA</p>
-
-    <p><strong>B.Tech. in Petrochemical Engineering</strong>, 2015<br>
-    Dr. B.A.T.U., Lonere, India</p>
-  </aside>
-
-</div>
-
-
-
-
-{% comment %}
 <div class="right-column-box">
   <h3>Research Interests</h3>
   <ul>
@@ -78,7 +40,7 @@ I am on the 2026-2027 job market. You can find my CV here.
 
 
 
-
+{% comment %}
 
 #Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites
 
