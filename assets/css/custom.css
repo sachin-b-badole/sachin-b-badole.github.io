@@ -88,7 +88,7 @@ img {
   display: block;
 }
 
-# Modify your earlier right-column, Modify your earlier right-column
+/* Modify your earlier right-column, Modify your earlier right-column */
 .right-column-box {
   float: right;
   width: 280px; /* try 240-300 depending on taste */
@@ -98,16 +98,16 @@ img {
   font-size: 0.9em;
 }
 
-# three column centering
+/* three column centering */
 .wrap { max-width: 1100px; }
 
-# override it to match your desired geometry
+/* override it to match your desired geometry */
 .wrap {
   max-width: 1350px !important;
   margin: 0 auto !important;
 }
 
-# Desktop vs Laptop Adaptation
+/* Desktop vs Laptop Adaptation */ 
 @media (max-width: 1400px) {
   .wrap { max-width: 1150px !important; }
 }
