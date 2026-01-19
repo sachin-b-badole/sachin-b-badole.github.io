@@ -141,7 +141,7 @@ img {
   display: none !important;
 }
 
-
+/* This following code work to hide moon sign */
 /* Hide the dark-mode moon icon (last item in the top nav) */
 .greedy-nav .visible-links > li:last-child {
   display: none !important;
