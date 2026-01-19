@@ -138,3 +138,8 @@ img {
   .wrap { max-width: 1150px !important; }
 }
 */
+
+.author-email-inline i {
+  padding-right: 4px;
+}
+
