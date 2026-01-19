@@ -5,7 +5,6 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
 
 I am a Ph.D. candidate in Environmental Economics at the University of Delaware, studying how households value environmental amenities and adopt renewable energy technologies, with a focus on rooftop solar, electric vehicles, water quality, and behavioral responses to policy incentives.
 
@@ -33,6 +32,7 @@ sidebar:
       **B.Tech. in Petrochemical Engineering**, 2015  
       Dr. B.A.T.U., Lonere, India
 
+---
 
 
 
