@@ -31,10 +31,10 @@ author:
   employer         : "University of Delaware"
   uri              : # URL
   email            : "sbadole@udel.edu" 
-  links:
-    - icon: email
-      label: "sbadole@udel.edu"
-      url: "mailto:sbadole@udel.edu"
+  #links:
+  #  - icon: email
+  #    label: "Email: sbadole@udel.edu"
+  #    url: "mailto:sbadole@udel.edu"
 
   # Academic websites
   academia         : # URL
