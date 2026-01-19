@@ -188,6 +188,37 @@ img {
   font-weight: 600 !important;
 }
 
+/* Center all content*/
+/* Center the entire page layout (desktop + laptop) */
+.wrap {
+  max-width: 1350px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Balance the three columns */
+.page {
+  display: flex;
+  justify-content: center !important;
+}
+
+/* Ensure main bio column expands */
+.page__content {
+  flex-grow: 1;
+  min-width: 520px;
+}
+
+/* Left sidebar (author) */
+.sidebar {
+  min-width: 260px;
+  margin-right: 1.5rem;
+}
+
+/* Right column (Research Interests + Education) */
+.right-column-box {
+  min-width: 260px;
+  margin-left: 1.5rem;
+}
 
 
 
