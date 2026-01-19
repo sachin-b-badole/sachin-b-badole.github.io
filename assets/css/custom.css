@@ -37,3 +37,9 @@ img {
   max-width: none !important;
 }
 
+
+/* Hide footer (Sitemap / FOLLOW / FEED bar) */
+.page__footer {
+  display: none !important;
+}
+
