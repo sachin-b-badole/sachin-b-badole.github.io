@@ -110,12 +110,7 @@ img {
   text-decoration: none !important;
 }
 
-
-/* Always show nav vertically (no hamburger) on desktop */
-.masthead__menu {
-  display: block !important;
-}
-
+# center tabls
 .masthead__menu-item {
   display: block !important;
   text-align: center !important;
