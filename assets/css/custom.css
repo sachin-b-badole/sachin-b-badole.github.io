@@ -240,11 +240,17 @@ img {
 
 
 /* Center the main page content (sidebar + bio + right column) */
+/*#main {
+/*  max-width: 1100px !important;              /* total width: sidebar + middle + right */
+/*  margin-left: auto;
+/*  margin-right: auto;
+}*/
+
 #main {
-  max-width: 1100px;              /* total width: sidebar + middle + right */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1300px !important;
+  margin: 0 auto !important;
 }
+
 
 /* Expand bio section width */
 .page__content {
