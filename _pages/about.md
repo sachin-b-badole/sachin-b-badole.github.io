@@ -23,7 +23,7 @@ I am on the 2026-2027 job market.
       <li>Energy economics</li>
       <li>Environmental valuation</li>
       <li>Behavioral and experimental economics</li>
-      <li>Sustainable transportation</li>
+      <li>Sustainable transportation and technology adoption</li>
     </ul>
   </div>
 
