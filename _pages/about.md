@@ -15,6 +15,38 @@ I use hedonic models, the stated-preference approach, and laboratory/survey expe
 I am on the 2026-2027 job market.  
 
 
+<div class="two-col-row">
+
+  <div class="two-col-block">
+    <h3>Interests</h3>
+    <ul class="interest-list">
+      <li>Energy economics</li>
+      <li>Environmental valuation</li>
+      <li>Behavioral and experimental economics</li>
+      <li>Sustainable transportation</li>
+    </ul>
+  </div>
+
+  <div class="two-col-block">
+    <h3>Education</h3>
+    <ul class="education-list">
+      <li>
+        <strong>Ph.D. in Environmental Economics</strong>, expected 2027<br>
+        University of Delaware, USA
+      </li>
+      <li>
+        <strong>M.S. in Economics</strong>, 2021<br>
+        University of Wisconsin–Madison, USA
+      </li>
+      <li>
+        <strong>B.Tech. in Petrochemical Engineering</strong>, 2015<br>
+        Dr. B.A.T.U., Lonere, India
+      </li>
+    </ul>
+  </div>
+
+</div>
+
 
 
 
