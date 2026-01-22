@@ -17,7 +17,7 @@ I am on the 2026-2027 job market.
 <div class="two-col-row">
 
   <div class="two-col-block">
-    <h3>Interests</h3>
+    <h3>Research Interests</h3>
     <ul class="interest-list">
       <li>Energy Economics</li>
       <li>Experimental Economics</li>
