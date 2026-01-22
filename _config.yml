@@ -70,7 +70,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "sachin-b-badole-6920b6a2" 
+  linkedin         : # "sachin-b-badole-6920b6a2" 
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -248,7 +248,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -259,7 +259,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _teaching
   - scope:
       path: ""
