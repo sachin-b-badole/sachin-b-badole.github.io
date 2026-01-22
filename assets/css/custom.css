@@ -273,7 +273,7 @@ img {
 
 /* Section headings */
 .two-col-block h3 {
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: "Helvetica Neue", Arial, sans-serif, serif;
   font-size: 1.15rem;
   font-weight: 600;
   margin-bottom: 0.6rem;
@@ -289,7 +289,7 @@ img {
 /* List items */
 .interest-list li,
 .education-list li {
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: "Helvetica Neue", Arial, sans-serif, serif;
   font-size: 0.96rem;
   line-height: 1.35;
   margin-bottom: 0.4rem;
