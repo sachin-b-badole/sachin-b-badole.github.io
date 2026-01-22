@@ -316,6 +316,17 @@ img {
 }
 
 
+.interest-list li,
+.education-list li {
+  font-size: 0.85rem !important;
+  line-height: 1.3 !important;
+}
+
+.two-col-block h3 {
+  font-size: 1rem !important;
+}
+
+
 
 
 
