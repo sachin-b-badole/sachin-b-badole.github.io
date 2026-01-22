@@ -12,7 +12,10 @@ I am a Ph.D. candidate in Environmental Economics at the University of Delaware,
 
 I use hedonic models, the stated-preference approach, and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My goal is to provide evidence that improves the effectiveness of environmental and energy policies and enhances understanding of consumer adoption, valuation, and risk perceptions.
 
-I am on the 2026-2027 job market.  
+<p style="color:#b30000;">I am on the 2026–2027 job market.</p>
+<span style="color:darkred; font-weight:bold;">I am on the 2026–2027 job market.</span>
+<p style="color:#505050; font-style:italic;">I am on the 2026–2027 job market.</p>
+  
 
 <div class="two-col-row">
 
