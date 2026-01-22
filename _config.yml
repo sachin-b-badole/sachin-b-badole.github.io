@@ -36,15 +36,6 @@ author:
   #    label: "Email: sbadole@udel.edu"
   #    url: "mailto:sbadole@udel.edu"
   
-  # Add references    
-  links:
-    - label: "References:"
-      url: ""
-    - label: "Prof. Joshua M. Duke"
-      url: "https://economics.udel.edu/people/jmduke/"
-    - label: "Prof. Christopher Parsons"
-      url: "https://example.com/"
-
 
   # Academic websites
   academia         : # URL
