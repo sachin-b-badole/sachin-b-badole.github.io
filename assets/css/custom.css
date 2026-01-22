@@ -330,10 +330,14 @@ img {
 body {
   color: #000;
 }
-a, a:visited {
-  color: #1a0dab;   /* standard blue */
-}
 
+/*a, a:visited {
+/*  color: #1a0dab;   /* standard blue */
+/*}*/
+
+.masthead__menu-item a {
+  color: #000;
+}
 
 
 
