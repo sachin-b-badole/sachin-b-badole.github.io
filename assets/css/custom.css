@@ -266,7 +266,7 @@ img {
 .two-col-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
+  gap: 2.2rem;
   margin-top: 2rem;
   max-width: 1000px;
 }
@@ -297,7 +297,7 @@ img {
 
 /* Degrees in bold */
 .education-list strong {
-  font-weight: 600;
+  font-weight: 550;
 }
 
 /* Optional: small mortarboard icon before each degree */
@@ -315,7 +315,7 @@ img {
   }
 }
 
-
+/*font size*/
 .interest-list li,
 .education-list li {
   font-size: 0.80rem;
