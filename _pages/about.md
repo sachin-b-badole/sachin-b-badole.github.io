@@ -14,16 +14,15 @@ I use hedonic models, the stated-preference approach, and laboratory/survey expe
 
 I am on the 2026-2027 job market.  
 
-
 <div class="two-col-row">
 
   <div class="two-col-block">
     <h3>Interests</h3>
     <ul class="interest-list">
-      <li>Energy economics</li>
-      <li>Environmental valuation</li>
-      <li>Behavioral and experimental economics</li>
-      <li>Sustainable transportation and technology adoption</li>
+      <li>Energy Economics</li>
+      <li>Experimental Economics</li>
+      <li>Environmental Valuation</li>
+      <li>Urban Economics</li>
     </ul>
   </div>
 
