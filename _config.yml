@@ -365,6 +365,13 @@ compress_html:
   ignore:
     envs: development
 
+# Add references    
+    - label: "References:"
+      url: ""
+    - label: "Prof. Joshua M. Duke"
+      url: "https://economics.udel.edu/people/jmduke/"
+    - label: "Prof. Christopher Parsons"
+      url: "https://example.com/"
 
 
 
