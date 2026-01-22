@@ -267,8 +267,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2.2rem;
-  margin-top: 2rem;
-  max-width: 1000px;
+  margin-top: 1.5rem;
+  max-width: 1100px;
 }
 
 /* Section headings */
@@ -297,7 +297,7 @@ img {
 
 /* Degrees in bold */
 .education-list strong {
-  font-weight: 550;
+  font-weight: 600;
 }
 
 /* Optional: small mortarboard icon before each degree */
