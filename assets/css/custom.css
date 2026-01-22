@@ -246,6 +246,11 @@ img {
   margin-right: auto;
 }
 
+/* Expand bio section width */
+.page__content {
+  max-width: 850px !important;
+}
+
 
 /* Bio serif font (academic style) */
 .page__content {
