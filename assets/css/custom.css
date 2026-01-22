@@ -318,20 +318,20 @@ img {
 
 .interest-list li,
 .education-list li {
-  font-size: 0.80rem !important;
-  line-height: 1.2 !important;
+  font-size: 0.80rem;
+  line-height: 1.2;
 }
 
 .two-col-block h3 {
-  font-size: 1rem !important;
+  font-size: 1rem;
 }
 
 
 body {
-  color: #000 !important;
+  color: #000;
 }
 a, a:visited {
-  color: #1a0dab !important;   /* standard blue */
+  color: #1a0dab;   /* standard blue */
 }
 
 
