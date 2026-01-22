@@ -244,10 +244,28 @@ img {
   max-width: 1100px;              /* total width: sidebar + middle + right */
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1.2rem;
 }
 
 
 
+@media (max-width: 900px) {
+  .right-column-box {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1.5rem;
+    padding-left: 0;
+    border-left: none;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+  }
+
+  #main {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+}
 
 
 
