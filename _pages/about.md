@@ -7,6 +7,24 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+I am a Ph.D. candidate in Environmental Economics at the University of Delaware, studying how households value environmental amenities and adopt renewable energy technologies, with a focus on rooftop solar, electric vehicles, water quality, and behavioral responses to policy incentives.
+
+I use hedonic models, the stated-preference approach, and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My goal is to provide evidence that improves the effectiveness of environmental and energy policies and enhances understanding of consumer adoption, valuation, and risk perceptions.
+
+I am on the 2026-2027 job market.  
+
+
+
+
+
+
+
+
+{% comment %}
+
+
+
 <div class="right-column-box">
   <h3>Research Interests</h3>
   <ul>
@@ -27,20 +45,6 @@ redirect_from:
   Dr. B.A.T.U., Lonere, India</p>
 </div>
 
-I am a Ph.D. candidate in Environmental Economics at the University of Delaware, studying how households value environmental amenities and adopt renewable energy technologies, with a focus on rooftop solar, electric vehicles, water quality, and behavioral responses to policy incentives.
-
-I use hedonic models, the stated-preference approach, and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My goal is to provide evidence that improves the effectiveness of environmental and energy policies and enhances understanding of consumer adoption, valuation, and risk perceptions.
-
-I am on the 2026-2027 job market.  
-
-
-
-
-
-
-
-
-{% comment %}
 
 #Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites
 
