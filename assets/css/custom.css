@@ -241,7 +241,7 @@ img {
 
 /* Center the main page content (sidebar + bio + right column) */
 #main {
-  max-width: 1200px !important;              /* total width: sidebar + middle + right */
+  max-width: 1100px !important;              /* total width: sidebar + middle + right */
   margin-left: auto;
   margin-right: auto;
 }
@@ -249,7 +249,7 @@ img {
 
 /* Bio serif font (academic style) */
 .page__content {
-  font-family: "Georgia", "Times New Roman", serif !important;
+  font-family: "Helvetica Neue", Arial, sans-serif !important;
   font-size: 1.02rem;
   line-height: 1.45;
 }
