@@ -261,7 +261,8 @@ img {
 
 
 /*For research intrest and education*/
-/* Two-column research interests + education block */
+/* ===== Two-column Interests + Education block under bio ===== */
+
 .two-col-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -278,7 +279,14 @@ img {
   margin-bottom: 0.6rem;
 }
 
-/* Bullet styling */
+/* Lists */
+.interest-list,
+.education-list {
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+/* List items */
 .interest-list li,
 .education-list li {
   font-family: "Georgia", "Times New Roman", serif;
@@ -287,18 +295,19 @@ img {
   margin-bottom: 0.4rem;
 }
 
-/* Degree formatting */
+/* Degrees in bold */
 .education-list strong {
   font-weight: 600;
 }
 
-/* Remove excess bullets spacing */
-.interest-list,
-.education-list {
-  padding-left: 1rem;
+/* Optional: small mortarboard icon before each degree */
+.education-list li::before {
+  content: "🎓 ";
+  margin-left: -1.2rem;
+  margin-right: 0.3rem;
 }
 
-/* Mobile stacking */
+/* Stack on mobile */
 @media (max-width: 850px) {
   .two-col-row {
     grid-template-columns: 1fr;
