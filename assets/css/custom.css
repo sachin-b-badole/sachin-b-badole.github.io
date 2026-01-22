@@ -266,8 +266,8 @@ img {
 .two-col-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2.5rem;
-  margin-top: 2rem;
+  gap: 1rem;
+  margin-top: 0.75rem;
   max-width: 1000px;
 }
 
