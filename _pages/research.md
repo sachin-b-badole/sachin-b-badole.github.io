@@ -15,16 +15,28 @@ classes: wide
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_{% endif %}
 
-<details>
-  <summary><button class="abs-btn">show abstract</button></summary>
-  <p>{{ p.abstract }}</p>
+<details class="paper-details">
+  <summary>
+    <span class="toggle-label">
+      <span class="show">Show abstract</span>
+      <span class="hide">Hide abstract</span>
+    </span>
+    <span class="links">
+      {% if p.pdf %}
+        | <a href="{{ p.pdf }}" target="_blank">Published Version</a>
+      {% endif %}
+      {% if p.website %}
+        | <a href="{{ p.website }}" target="_blank">Journal Page</a>
+      {% endif %}
+    </span>
+  </summary>
+
+  <div class="abstract-text">
+    {{ p.abstract }}
+  </div>
 </details>
 
-{% if p.pdf %}[Working Paper]({{ p.pdf }}){% endif %}
-{% if p.website %} | [Project Page]({{ p.website }}){% endif %}
-{% if p.slides %} | [Slides]({{ p.slides }}){% endif %}
-
-<br><br>
+<br>
 {% endfor %}
 
 ---
