@@ -519,15 +519,15 @@ details.abs-block p {
 .archive__item .authors {
   margin-top: 0;
   margin-bottom: 0.1rem;
-  font-size: 0.92rem; /* optional */
+  font-size: 0.7rem; /* optional */
 }
 
 /* Journal / metadata line */
 .archive__item-metadata {
   margin-top: 0;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.1rem;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 /* Links (PDF, Abstract, Preprint, etc.) */
@@ -535,20 +535,20 @@ details.abs-block p {
 .paper-links,
 .show-abstract,
 .paper-link {
-  margin-top: 0.2rem;
-  margin-bottom: 0.3rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 /* Compress gap between different papers */
 .archive__item {
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.1rem;
   border-bottom: none; /* remove line if exists */
 }
 
 /* Reduce whitespace under section headings (Working Papers, Publications) */
 .page__content h2, .page__content h3 {
-  margin-top: 0.8rem;
+  margin-top: 0.7rem;
   margin-bottom: 0.4rem;
 }
 
