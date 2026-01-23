@@ -36,7 +36,7 @@ classes: wide
 **{{ p.title }}**  
 
 {{ p.authors | join: ", " }}  
-{% if p.journal %}_{{ p.journal }}_ ({{ p.year }})_ ({{ p.volume }}){% endif %}
+{% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); ({{ p.volume }}){% endif %}
 
 <details class="paper-details">
   <summary>
