@@ -46,10 +46,10 @@ classes: wide
     </span>
     <span class="links">
       {% if p.pdf %}
-        | <a href="{{ p.pdf }}">Published Version</a>
+        | <a href="{{ p.pdf }}" target="_blank">Published Version</a>
       {% endif %}
       {% if p.website %}
-        | <a href="{{ p.website }}">Journal Page</a>
+        | <a href="{{ p.website }}" target="_blank">Journal Page</a>
       {% endif %}
     </span>
   </summary>
