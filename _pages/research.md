@@ -38,8 +38,8 @@ classes: wide
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_ ({{ p.year }}){% endif %}
 
-<details>
-  <summary><button class="abs-btn">show abstract</button></summary>
+<details class="abs-block">
+  <summary>Show abstract</summary>
   <p>{{ p.abstract }}</p>
 </details>
 
