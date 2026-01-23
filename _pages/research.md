@@ -38,24 +38,19 @@ classes: wide
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_ ({{ p.year }}){% endif %}
 
-<details class="paper-toggle">
-  <div class="paper">
-    <!-- toggle -->
-    <label class="toggle-abs">Show abstract</label>
-  
-    <!-- links -->
-    <span class="paper-links">
-      | <a href="https://example.com/published" target="_blank">Published Version</a>
-      | <a href="https://example.com/journal" target="_blank">Journal Page</a>
-    </span>
-  
-    <!-- abstract -->
-    <div class="abstract" style="display:none;">
-      Residential solar energy installations are a critical component of the energy transition...
-      <!-- entire abstract here -->
-    </div>
-  </div>
-</details>
+<div class="paper-actions">
+  <button class="toggle-abstract">Show abstract</button>
+  <span class="sep">|</span>
+  <a href="PUBLISHED_LINK" target="_blank">Published Version</a>
+  <span class="sep">|</span>
+  <a href="JOURNAL_LINK" target="_blank">Journal Page</a>
+</div>
+
+<div class="paper-abstract" style="display:none;">
+  <!-- your abstract here -->
+  Residential solar energy installations are a critical component ...
+</div>
+
 
 
 <br>
