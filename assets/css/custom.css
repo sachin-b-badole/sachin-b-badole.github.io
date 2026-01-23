@@ -265,7 +265,7 @@ img {
 
 .three-col-row {
   display: grid;
-  grid-template-columns: 0.9fr 1fr 0.9fr;  /* narrower + closer */
+  grid-template-columns: 0.9fr 1.15fr 0.9fr;  /* narrower + closer */
   column-gap: 0.5rem;                      /* reduce horizontal gap */
   row-gap: 0.5rem;
   margin-top: 0.75rem;
