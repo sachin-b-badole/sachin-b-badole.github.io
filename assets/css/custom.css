@@ -431,65 +431,49 @@ details.abs-block p {
 /* ===== Research page: inline abstract + links ===== */
 
 /* -------------- Research page abstract toggle -------------- */
+/* ------- Research page: abstract toggle + links in one bar ------- */
 
-/* Put everything on one line */
-.paper-bar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.9rem;
+.paper-toggle {
   margin-top: 0.3rem;
+  font-size: 0.9rem;
 }
 
-/* Make details/summary look like a small button*/ 
-.paper-bar details {
+/* Summary behaves like a compact bar, not full width */
+.paper-toggle > summary {
   display: inline-block;
-  vertical-align: middle;
-}
-
-
-.paper-bar summary {
   cursor: pointer;
   padding: 2px 6px;
   border: 1px solid #ccc;
   background: #f7f7f7;
   list-style: none;
-  display: inline-block;
 }
 
-/* hide the default triangle */
-.paper-bar summary::-webkit-details-marker {
+/* Remove default triangle */
+.paper-toggle > summary::-webkit-details-marker {
   display: none;
 }
 
-/* TEXT SWITCHING: show vs hide */
-summary .hide {
+/* Show/Hide text switching */
+.paper-toggle summary .hide {
   display: none;
 }
-
-details[open] summary .show {
+.paper-toggle[open] summary .show {
   display: none;
 }
-
-details[open] summary .hide {
+.paper-toggle[open] summary .hide {
   display: inline;
 }
 
-/* Abstract body drops below the bar */
-.paper-bar .abstract-text {
+/* Pipe separators between items in the bar */
+.paper-toggle summary .sep {
+  margin: 0 4px;
+  color: #555;
+}
+
+/* Abstract text below the bar */
+.paper-toggle .abstract-text {
   margin-top: 0.4rem;
-  flex-basis: 100%;
-  font-size: 0.9rem;
   line-height: 1.4;
 }
-
-/* separator pipes */
-.paper-bar .sep {
-  color: #555;
-  margin: 0 3px;
-}
-
-
 
 
