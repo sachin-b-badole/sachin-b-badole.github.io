@@ -79,13 +79,7 @@ classes: wide
 {% assign wips = site.publications | where: "type", "work in progress" | sort: "order" | reverse %}
 {% for p in wips %}
 **{{ p.title }}**  
-
 {{ p.authors | join: ", " }}
-
-<details>
-  <summary><button class="abs-btn">show abstract</button></summary>
-  <p>{{ p.abstract }}</p>
-</details>
 
 {% if p.pdf %}[Draft]({{ p.pdf }}){% endif %}
 {% if p.website %} | [Project Page]({{ p.website }}){% endif %}
