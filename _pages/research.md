@@ -11,7 +11,7 @@ classes: research-page
 {% for p in pubs %}
 **{{ p.title }}**  
 {{ p.authors | join: ", " }}  
-{% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); ({{ p.volume }}){% endif %}
+{% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); ({{ p.volume }}); ({{ p.pages }}){% endif %}
 
 <details class="paper-details">
   <summary>
@@ -42,6 +42,7 @@ classes: research-page
 {% assign wps = site.publications | where: "type", "working paper" | sort: "order" %}
 {% for p in wps %}
 **{{ p.title }}**
+{% if p.status %} ({{ p.status }}){% endif %}  
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_{% endif %}
 
