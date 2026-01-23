@@ -1,5 +1,5 @@
 ---
-title: "Willingness to pay for solar adoption- Economic, ideological, motivational, and demographic factors"
+title: "Willingness to pay for solar adoption: Economic, ideological, motivational, and demographic factors"
 authors:
   - "Sachin B. Badole"
   - "Stephen Bird"
