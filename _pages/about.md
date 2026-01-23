@@ -15,8 +15,9 @@ I use hedonic models, the stated-preference approach, and laboratory/survey expe
 
 <span style="color:darkred; font-weight:bold;">I am on the 2026–2027 job market.</span>
   
-<div class="two-col-row">
-  <div class="two-col-block">
+<div class="three-col-row">
+
+  <div class="three-col-block">
     <h3>Research Interests</h3>
     <ul class="interest-list">
       <li>Energy Economics</li>
@@ -26,7 +27,7 @@ I use hedonic models, the stated-preference approach, and laboratory/survey expe
     </ul>
   </div>
 
-  <div class="two-col-block">
+  <div class="three-col-block">
     <h3>Education</h3>
     <ul class="education-list">
       <li>
@@ -55,6 +56,7 @@ I use hedonic models, the stated-preference approach, and laboratory/survey expe
   </div>
 
 </div>
+
 
 
 
