@@ -442,10 +442,12 @@ details.abs-block p {
   margin-top: 0.3rem;
 }
 
-/* Make details/summary look like a small button */
+/* Make details/summary look like a small button*/ 
 .paper-bar details {
-  display: inline-flex;
+  display: inline-block;
+  vertical-align: middle;
 }
+
 
 .paper-bar summary {
   cursor: pointer;
