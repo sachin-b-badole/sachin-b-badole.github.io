@@ -40,7 +40,10 @@ classes: wide
 
 <div class="paper-links">
   <details class="abs-inline">
-    <summary>Show abstract</summary>
+    <summary>
+      <span class="show">Show abstract</span>
+      <span class="hide">Hide abstract</span>
+    </summary>
     <p>{{ p.abstract }}</p>
   </details>
   {% if p.pdf %}<span> | </span><a href="{{ p.pdf }}">Published Version</a>{% endif %}
@@ -49,6 +52,7 @@ classes: wide
 
 <br>
 {% endfor %}
+
 
 
 
