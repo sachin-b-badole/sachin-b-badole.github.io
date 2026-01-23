@@ -76,7 +76,7 @@ classes: wide
 
 ## Work in Progress
 
-{% assign wips = site.publications | where: "type", "work in progress" | sort: "year" | reverse %}
+{% assign wips = site.publications | where: "type", "work in progress" | sort: "order" | reverse %}
 {% for p in wips %}
 **{{ p.title }}**  
 
