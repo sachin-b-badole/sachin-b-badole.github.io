@@ -515,5 +515,11 @@ You can force the nav to remain expanded instead of collapsing into hamburger:*/
 }
 
 
+/* Make Bio two paragraph "Justify" align square format*/
+.page .page__content p:not(.jobmarket) {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 
 
