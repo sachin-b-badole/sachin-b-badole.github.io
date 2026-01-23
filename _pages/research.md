@@ -10,7 +10,6 @@ classes: research-page
 {% assign pubs = site.publications | where: "type", "publication" | sort: "year" | reverse %}
 {% for p in pubs %}
 **{{ p.title }}**  
-
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); ({{ p.volume }}){% endif %}
 
@@ -43,7 +42,6 @@ classes: research-page
 {% for p in wps %}
 **{{ p.title }}**
 {% if p.status %} ({{ p.status }}){% endif %}  
-
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_{% endif %}
 
