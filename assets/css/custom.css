@@ -429,51 +429,38 @@ details.abs-block p {
 
 /*Date: jan 21, 2026 11pm*/
 /* ===== Research page: inline abstract + links ===== */
-/* Inline research actions bar */
-.paper-bar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
+
+.paper-links {
   font-size: 0.9rem;
   margin-top: 0.3rem;
 }
 
-/* Make details + summary inline */
-.paper-bar details {
-  display: inline-flex;
+/* Make details/summary appear inline */
+.abs-inline {
+  display: inline;
 }
 
-.paper-bar summary {
-  cursor: pointer;
+.abs-inline > summary {
+  display: inline-block;
   padding: 2px 6px;
   border: 1px solid #ccc;
   background: #f7f7f7;
-  list-style: none;
+  cursor: pointer;
 }
 
-/* Hide triangle */
-.paper-bar summary::-webkit-details-marker {
+/* Hide default triangle marker */
+.abs-inline summary::-webkit-details-marker {
   display: none;
 }
 
-/* Show (hide) when open */
-.paper-bar details[open] summary::after {
+/* When open, show "(hide)" after the label */
+.abs-inline[open] > summary::after {
   content: " (hide)";
 }
 
-/* Abstract formatting */
-.paper-bar .abstract-text {
-  margin-top: 0.35rem;
-  flex-basis: 100%; /* forces abstract to drop below, not inline */
-  font-size: 0.9rem;
-  line-height: 1.35;
-}
-
-/* separator styling */
-.paper-bar .sep {
-  color: #555;
-  margin: 0 3px;
+/* Abstract text under the bar */
+.abs-inline > p {
+  margin-top: 0.4rem;
 }
 
 
