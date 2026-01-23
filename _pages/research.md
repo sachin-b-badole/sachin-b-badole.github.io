@@ -34,10 +34,8 @@ classes: wide
     {{ p.abstract }}
   </div>
 </details>
-
 <br>
 {% endfor %}
-
 ---
 ## Working Papers
 
@@ -72,10 +70,8 @@ classes: wide
     {{ p.abstract }}
   </div>
 </details>
-
 <br>
 {% endfor %}
-
 ---
 
 ## Work in Progress
