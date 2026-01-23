@@ -430,51 +430,61 @@ details.abs-block p {
 /*Date: jan 21, 2026 11pm*/
 /* ===== Research page: inline abstract + links ===== */
 
-.paper-links {
+/* -------------- Research page abstract toggle -------------- */
+
+/* Put everything on one line */
+.paper-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
   font-size: 0.9rem;
   margin-top: 0.3rem;
 }
 
-/* Make details/summary appear inline */
-.abs-inline {
-  display: inline;
+/* Make details/summary look like a small button */
+.paper-bar details {
+  display: inline-flex;
 }
 
-.abs-inline > summary {
-  display: inline-block;
+.paper-bar summary {
+  cursor: pointer;
   padding: 2px 6px;
   border: 1px solid #ccc;
   background: #f7f7f7;
-  cursor: pointer;
+  list-style: none;
 }
 
-/* Hide default triangle marker */
-.abs-inline summary::-webkit-details-marker {
+/* hide the default triangle */
+.paper-bar summary::-webkit-details-marker {
   display: none;
 }
 
-/* When open, show "(hide)" after the label 
-.abs-inline[open] > summary::after {
-  content: "Hide abstract";
-}*/
-
-/* Show/Hide abstract toggler */
-.paper-bar summary .hide {
+/* TEXT SWITCHING: show vs hide */
+summary .hide {
   display: none;
 }
 
-.paper-bar details[open] summary .show {
+details[open] summary .show {
   display: none;
 }
 
-.paper-bar details[open] summary .hide {
+details[open] summary .hide {
   display: inline;
 }
 
-
-/* Abstract text under the bar */
-.abs-inline > p {
+/* Abstract body drops below the bar */
+.paper-bar .abstract-text {
   margin-top: 0.4rem;
+  flex-basis: 100%;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* separator pipes */
+.paper-bar .sep {
+  color: #555;
+  margin: 0 3px;
 }
 
 
