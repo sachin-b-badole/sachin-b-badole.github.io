@@ -455,7 +455,7 @@ details.abs-block p {
 
 /* When open, show "(hide)" after the label */
 .abs-inline[open] > summary::after {
-  content: " (hide)";
+  content: "Hide abstract";
 }
 
 /* Abstract text under the bar */
