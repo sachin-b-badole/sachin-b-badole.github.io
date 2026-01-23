@@ -37,14 +37,21 @@ classes: research-page
 {% endfor %}
 ---
 
-## Working Papers
+### Working Papers
 
-{% assign wps = site.publications | where: "type", "working paper" | sort: "order" %}
+{% assign wps = site.publications | where: "type", "working" | sort: "order" %}
 {% for p in wps %}
-**{{ p.title }}**
-{% if p.status %} ({{ p.status }}){% endif %}  
-{{ p.authors | join: ", " }} 
-{% if p.journal %}_{{ p.journal }}_{% endif %}
+
+<p class="paper-citation">
+  <strong>{{ p.title }}</strong><br>
+  {{ p.authors | join: ", " }}
+</p>
+
+{% if p.journal %}
+<p class="paper-journal">
+  <em>{{ p.journal }}</em> ({{ p.year }}){% if p.volume %}; {{ p.volume }}{% endif %}
+</p>
+{% endif %}
 
 <details class="paper-details">
   <summary>
@@ -53,24 +60,17 @@ classes: research-page
       <span class="hide">Hide abstract</span>
     </span>
     <span class="links">
-      {% if p.pdf %}
-        | <a href="{{ p.pdf }}" target="_blank">Published Version</a>
-      {% endif %}
-      {% if p.website %}
-        | <a href="{{ p.website }}" target="_blank">Journal Page</a>
-      {% endif %}
-      {% if p.preprint %}
-        | <a href="{{ p.preprint }}" target="_blank">Preprint Version</a>
-      {% endif %}
+      {% if p.pdf %}| <a href="{{ p.pdf }}">Preprint Version</a>{% endif %}
     </span>
   </summary>
-
   <div class="abstract-text">
     {{ p.abstract }}
   </div>
 </details>
+
 <br>
 {% endfor %}
+
 ---
 
 ## Work in Progress
