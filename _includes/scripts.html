@@ -1,3 +1,13 @@
-<script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".toggle-abs").forEach(btn => {
+    btn.addEventListener("click", function () {
+      const abs = btn.nextElementSibling.nextElementSibling;
+      const show = abs.style.display === "none";
+      abs.style.display = show ? "block" : "none";
+      btn.textContent = show ? "Hide abstract" : "Show abstract";
+    });
+  });
+});
+</script>
 
-{% include analytics.html %}
