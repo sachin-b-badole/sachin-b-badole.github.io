@@ -39,7 +39,7 @@ classes: wide
 ---
 ## Working Papers
 
-{% assign wps = site.publications | where: "type", "working paper" | sort: "year" | reverse %}
+{% assign wps = site.publications | where: "type", "working paper" | sort: "order" | reverse %}
 {% for p in wps %}
 **{{ p.title }}**
 {% if p.status %} ({{ p.status }}){% endif %}  
