@@ -41,7 +41,7 @@ classes: wide research-page
 {% assign wps = site.publications | where: "type", "working paper" | sort: "order" %}
 {% for p in wps %}
 **{{ p.title }}**{% if p.status %} ({{ p.status }}){% endif %}  
-{{ p.authors | join: ", " }}<br> 
+{{ p.authors | join: ", " | markdownify | replace: "<p>", "" | replace: "</p>", "" }}
 {% if p.journal %}_{{ p.journal }}_{% endif %}
 
 <details class="paper-details">
