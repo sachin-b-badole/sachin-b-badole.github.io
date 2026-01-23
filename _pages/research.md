@@ -38,24 +38,29 @@ classes: wide
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_ ({{ p.year }}){% endif %}
 
-<div class="paper-actions">
-  <button class="toggle-abstract">Show abstract</button>
-  <span class="sep">|</span>
-  <a href="PUBLISHED_LINK" target="_blank">Published Version</a>
-  <span class="sep">|</span>
-  <a href="JOURNAL_LINK" target="_blank">Journal Page</a>
-</div>
+<details class="paper-details">
+  <summary>
+    <span class="toggle-label">
+      <span class="show">Show abstract</span>
+      <span class="hide">Hide abstract</span>
+    </span>
+    <span class="links">
+      {% if p.pdf %}
+        | <a href="{{ p.pdf }}">Published Version</a>
+      {% endif %}
+      {% if p.website %}
+        | <a href="{{ p.website }}">Journal Page</a>
+      {% endif %}
+    </span>
+  </summary>
 
-<div class="paper-abstract" style="display:none;">
-  <!-- your abstract here -->
-  Residential solar energy installations are a critical component ...
-</div>
-
-
+  <div class="abstract-text">
+    {{ p.abstract }}
+  </div>
+</details>
 
 <br>
 {% endfor %}
-
 
 
 
