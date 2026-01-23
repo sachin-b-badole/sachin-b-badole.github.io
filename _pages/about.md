@@ -44,6 +44,16 @@ I use hedonic models, the stated-preference approach, and laboratory/survey expe
     </ul>
   </div>
 
+  <div class="three-col-block">
+    <h3>References</h3>
+    <ul class="reference-list">
+      <li>Prof. Martin D. Heintzelman</li>
+      <li>Prof. George Parsons</li>
+      <li>Prof. Anna Barchanback</li>
+      <li>Prof. Christina McGargham</li>
+    </ul>
+  </div>
+
 </div>
 
 
