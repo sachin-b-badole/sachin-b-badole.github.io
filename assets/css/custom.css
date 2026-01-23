@@ -492,6 +492,14 @@ details.abs-block p {
 }
 
 
+/* Remove Minimal Mistakes mobile menu toggle */
+.greedy-nav button,
+.greedy-nav .toggle,
+.greedy-nav .toggle::before {
+  display: none;
+}
+
+
 
 
 
