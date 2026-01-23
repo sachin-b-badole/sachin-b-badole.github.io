@@ -347,9 +347,9 @@ body {
 
 /*Add Reference Name*/
 .sidebar-ref {
-  margin-top: 12px;
-  font-size: 0.8em;
-  line-height: 1.3em;
+  margin-top: 10px;
+  font-size: 0.85em;
+  line-height: 1.25em;
 }
 
 .sidebar-ref a {
