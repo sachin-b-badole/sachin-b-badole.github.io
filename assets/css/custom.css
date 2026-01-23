@@ -389,4 +389,40 @@ details[open] .abs-btn::after {
 }
 
 
+/* Abstract toggle styling */
+
+details.abs-block {
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+details.abs-block summary {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.85rem;
+  padding: 2px 8px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  color: #000;
+  list-style: none;
+}
+
+/* remove default triangle marker */
+details.abs-block summary::-webkit-details-marker {
+  display: none;
+}
+
+/* When open, show "(hide)" */
+details.abs-block[open] summary::after {
+  content: " (hide)";
+  font-weight: normal;
+}
+
+/* Abstract paragraph */
+details.abs-block p {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
 
