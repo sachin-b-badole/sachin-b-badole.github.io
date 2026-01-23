@@ -33,7 +33,6 @@ classes: research-page
     {{ p.abstract }}
   </div>
 </details>
-<br>
 {% endfor %}
 ---
 
@@ -68,7 +67,6 @@ classes: research-page
     {{ p.abstract }}
   </div>
 </details>
-<br>
 {% endfor %}
 
 ---
@@ -82,8 +80,6 @@ classes: research-page
 
 {% if p.pdf %}[Draft]({{ p.pdf }}){% endif %}
 {% if p.website %} | [Project Page]({{ p.website }}){% endif %}
-
-<br><br>
 {% endfor %}
 
 
