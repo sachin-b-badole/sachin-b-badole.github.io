@@ -487,4 +487,9 @@ details.abs-block p {
   font-size: 0.9rem;   /* adjust — try 0.85rem, 0.8rem, etc. */
 }
 
+.pub-citation {
+  font-size: 0.9rem;     /* try 0.85 or 0.8 */
+  line-height: 1.2;      /* tighter vertical space */
+  color: black;          /* optional */
+}
 
