@@ -35,8 +35,8 @@ classes: research-page
 </details>
 <br>
 {% endfor %}
----
 
+---
 ## Working Papers
 
 {% assign wps = site.publications | where: "type", "working paper" | sort: "order" %}
