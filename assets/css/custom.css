@@ -345,5 +345,22 @@ body {
 /*  color: #000;
 }*/
 
+/*Add Reference Name*/
+.sidebar-ref {
+  margin-top: 12px;
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+.sidebar-ref a {
+  color: black !important;
+  text-decoration: none;
+}
+
+.sidebar-ref a:hover {
+  text-decoration: underline;
+}
+
+
 
 
