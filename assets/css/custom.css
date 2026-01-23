@@ -499,7 +499,20 @@ details.abs-block p {
   display: none;
 }
 
+/*If You Want Desktop Menu Only + No Mobile Collapse
+You can force the nav to remain expanded instead of collapsing into hamburger:*/
 
+.greedy-nav .visible-links {
+  display: flex;
+}
+
+.greedy-nav .hidden-links {
+  display: none;
+}
+
+.greedy-nav__toggle {
+  display: none;
+}
 
 
 
