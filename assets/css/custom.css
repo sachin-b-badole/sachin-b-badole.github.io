@@ -260,77 +260,63 @@ img {
 }
 
 
-/*For research intrest and education*/
-/* ===== Two-column Interests + Education block under bio ===== */
+/*For research interest and education and reference*/
+/* ===== Three-column block under bio ===== */
 
-.two-col-row {
+.three-col-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   margin-top: 0.75rem;
-  max-width: 1000px;
+  max-width: 1100px;
 }
 
-/* reduce gap in columns*/
-.two-col-section > div {
-  width: 48%;       /* give more line room */
-}
-
-
-/* Section headings */
-.two-col-block h3 {
+/* Headings */
+.three-col-block h3 {
   font-family: "Helvetica Neue", Arial, sans-serif, serif;
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 600;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 
-/* Lists */
+/* Lists (interests, education, references) */
 .interest-list,
-.education-list {
+.education-list,
+.reference-list {
   padding-left: 1.1rem;
   margin: 0;
 }
 
 /* List items */
 .interest-list li,
-.education-list li {
+.education-list li,
+.reference-list li {
   font-family: "Helvetica Neue", Arial, sans-serif, serif;
-  font-size: 0.96rem;
-  line-height: 1.35;
-  margin-bottom: 0.4rem;
+  font-size: 0.80rem;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
 }
 
-/* Degrees in bold */
+/* Bold degrees */
 .education-list strong {
   font-weight: 600;
 }
 
-/* Optional: small mortarboard icon before each degree */
+/* Mortarboard icon for degrees */
 .education-list li::before {
   content: "🎓 ";
   margin-left: -1.2rem;
   margin-right: 0.3rem;
 }
 
-/* Stack on mobile */
-@media (max-width: 850px) {
-  .two-col-row {
+/* Stack columns on mobile */
+@media (max-width: 900px) {
+  .three-col-row {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1.25rem;
   }
 }
 
-/*font size*/
-.interest-list li,
-.education-list li {
-  font-size: 0.80rem;
-  line-height: 1.2;
-}
-
-.two-col-block h3 {
-  font-size: 1rem;
-}
 
 /*All color black*/
 body {
