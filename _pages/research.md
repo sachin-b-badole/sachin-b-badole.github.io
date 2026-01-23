@@ -1,7 +1,7 @@
 ---
 permalink: /research/
 title: "Research"
-layout: single
+layout: archive
 author_profile: false
 classes: wide research-page
 ---
