@@ -28,6 +28,9 @@ classes: wide
       {% if p.website %}
         | <a href="{{ p.website }}" target="_blank">Journal Page</a>
       {% endif %}
+      {% if p.preprint %}
+        | <a href="{{ p.preprint }}" target="_blank">Preprint Version</a>
+      {% endif %}
     </span>
   </summary>
 
