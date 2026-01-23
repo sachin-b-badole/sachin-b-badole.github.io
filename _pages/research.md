@@ -36,12 +36,12 @@ classes: research-page
 <br>
 {% endfor %}
 ---
+
 ## Working Papers
 
 {% assign wps = site.publications | where: "type", "working paper" | sort: "order" %}
 {% for p in wps %}
 **{{ p.title }}**
-{% if p.status %} ({{ p.status }}){% endif %}  
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_{% endif %}
 
