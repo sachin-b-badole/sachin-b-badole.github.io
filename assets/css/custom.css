@@ -429,35 +429,57 @@ details.abs-block p {
 
 /*Date: jan 21, 2026 11pm*/
 /* ===== Research page: inline abstract + links ===== */
+/* ---------- Research: abstract toggle + links ---------- */
 
-/* -------------- Research page abstract toggle -------------- */
-/* smaller box button only for abstract */
-.toggle-abs {
-  display: inline-block;
-  border: 1px solid #999;
-  padding: 4px 10px;
+.paper-details {
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
+}
+
+/* summary is clickable, but NOT a huge bar */
+.paper-details > summary {
   cursor: pointer;
+  list-style: none;
+}
+
+/* hide the default triangle marker */
+.paper-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* box only around Show/Hide text */
+.paper-details .toggle-label {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid #999;
+  background: #fff;
   margin-right: 6px;
-  background: white;
-  font-size: 14px;
 }
 
-/* pipe links in one row */
-.paper-links {
-  font-size: 14px;
+/* link group */
+.paper-details .links {
+  font-size: 0.95rem;
 }
 
-.paper-links a {
+.paper-details .links a {
   color: #0077cc;
-  text-decoration: underline;
 }
 
-/* abstract text */
-.abstract {
-  margin-top: 10px;
-  max-width: 800px;
+/* show/hide text switching */
+.paper-details .toggle-label .hide {
+  display: none;
+}
+.paper-details[open] .toggle-label .show {
+  display: none;
+}
+.paper-details[open] .toggle-label .hide {
+  display: inline;
+}
+
+/* abstract content below bar */
+.paper-details .abstract-text {
+  margin-top: 0.4rem;
   line-height: 1.4;
-  font-size: 15px;
 }
 
 
