@@ -35,15 +35,15 @@ classes: research-page
 </details>
 <br>
 {% endfor %}
-
 ---
+
 ## Working Papers
 
 {% assign wps = site.publications | where: "type", "working paper" | sort: "order" %}
 {% for p in wps %}
 **{{ p.title }}**
-{{ p.authors | join: ", " }} 
 {% if p.status %} ({{ p.status }}){% endif %}  
+{{ p.authors | join: ", " }} 
 {% if p.journal %}_{{ p.journal }}_{% endif %}
 
 <details class="paper-details">
