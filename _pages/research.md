@@ -39,19 +39,21 @@ classes: wide
 {% if p.journal %}_{{ p.journal }}_ ({{ p.year }}){% endif %}
 
 <details class="paper-toggle">
-  <summary>
-    <span class="show">Show abstract</span>
-    <span class="hide">Hide abstract</span>
-    {% if p.pdf %}
-      <span class="sep"> | </span><a href="{{ p.pdf }}">Published Version</a>
-    {% endif %}
-    {% if p.website %}
-      <span class="sep"> | </span><a href="{{ p.website }}">Journal Page</a>
-    {% endif %}
-  </summary>
-
-  <div class="abstract-text">
-    {{ p.abstract }}
+  <div class="paper">
+    <!-- toggle -->
+    <label class="toggle-abs">Show abstract</label>
+  
+    <!-- links -->
+    <span class="paper-links">
+      | <a href="https://example.com/published" target="_blank">Published Version</a>
+      | <a href="https://example.com/journal" target="_blank">Journal Page</a>
+    </span>
+  
+    <!-- abstract -->
+    <div class="abstract" style="display:none;">
+      Residential solar energy installations are a critical component of the energy transition...
+      <!-- entire abstract here -->
+    </div>
   </div>
 </details>
 
