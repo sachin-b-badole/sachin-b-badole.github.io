@@ -38,21 +38,14 @@ classes: wide
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_ ({{ p.year }}){% endif %}
 
-<div class="paper-bar">
-  <details>
+<div class="paper-links">
+  <details class="abs-inline">
     <summary>Show abstract</summary>
-    <div class="abstract-text">{{ p.abstract }}</div>
+    <p>{{ p.abstract }}</p>
   </details>
-
-  {% if p.pdf %}
-    <span class="sep">|</span><a href="{{ p.pdf }}">Published Version</a>
-  {% endif %}
-
-  {% if p.website %}
-    <span class="sep">|</span><a href="{{ p.website }}">Journal Page</a>
-  {% endif %}
+  {% if p.pdf %}<span> | </span><a href="{{ p.pdf }}">Published Version</a>{% endif %}
+  {% if p.website %}<span> | </span><a href="{{ p.website }}">Journal Page</a>{% endif %}
 </div>
-
 
 <br>
 {% endfor %}
