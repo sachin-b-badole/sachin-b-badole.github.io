@@ -504,3 +504,53 @@ details.abs-block p {
   line-height: 1.1;
 }
 
+
+
+/* ===== Research Page Compression ===== */
+
+/* Title line */
+.archive__item-title {
+  margin-bottom: 0.15rem !important;
+  line-height: 1.25 !important;
+}
+
+/* Author line */
+.archive__item-authors,
+.archive__item .authors {
+  margin-top: 0 !important;
+  margin-bottom: 0.1rem !important;
+  font-size: 0.92rem !important; /* optional */
+}
+
+/* Journal / metadata line */
+.archive__item-metadata {
+  margin-top: 0 !important;
+  margin-bottom: 0.25rem !important;
+  font-style: italic;
+  font-size: 0.9rem !important;
+}
+
+/* Links (PDF, Abstract, Preprint, etc.) */
+.archive__item-links,
+.paper-links,
+.show-abstract,
+.paper-link {
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.3rem !important;
+}
+
+/* Compress gap between different papers */
+.archive__item {
+  margin-bottom: 0.9rem !important;
+  padding-bottom: 0.2rem !important;
+  border-bottom: none !important; /* remove line if exists */
+}
+
+/* Reduce whitespace under section headings (Working Papers, Publications) */
+.page__content h2, .page__content h3 {
+  margin-top: 0.8rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+
+
