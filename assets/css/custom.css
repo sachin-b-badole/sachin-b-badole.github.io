@@ -367,3 +367,26 @@ body {
   font-weight: 700;    /* optional */
   margin-bottom: 0.75rem;
 }
+
+/* Limit Research page*/
+.abs-btn {
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+details summary {
+  list-style: none;
+  display: inline-block;
+  margin: 4px 0;
+}
+
+details[open] .abs-btn::after {
+  content: " (hide)";
+  font-weight: normal;
+}
+
+
+
