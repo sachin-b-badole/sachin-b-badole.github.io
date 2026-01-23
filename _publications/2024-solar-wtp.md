@@ -17,7 +17,9 @@ We implemented an online survey of 580 households in New York State who had not 
 We find an average WTP of $7388.5 for installing a residential rooftop solar system. Respondents' WTP is $11.66 in upfront costs for each additional $1 of average monthly savings. We also find substantial heterogeneity in WTP and in trade-offs between upfront costs versus savings. Age, children in households, income, education, motivation, and ideology are all independent factors associated with WTP. We discuss a range of implications for policy and marketing to further increase rates of adoption in the future.
 
 pdf: "https://github.com/sachin-b-badole/sachin-b-badole.github.io/edit/master/files/WTP for solar adoption - Badole et al.pdf"
+
 website: "https://www.sciencedirect.com/science/article/abs/pii/S0140988324004110"
+
 ---
 
 
