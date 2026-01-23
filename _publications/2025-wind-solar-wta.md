@@ -1,17 +1,14 @@
 ---
-title: "Willingness to pay for solar adoption- Economic, ideological, motivational, and demographic factors"
+title: "Heterogeneity in Preferences for Wind and Solar Development"
 authors:
+  - "Ruirui Dang"
   - "Sachin B. Badole"
-  - "Stephen Bird"
+  - "Charles Towe"
   - "Martin D. Heintzelman"
-  - "Lisa Legault"
-year: 2024
-type: "publication"
-journal: "Energy Economics"
-volume: 136
-status: "Published"
+year: 2026
+type: "working paper"
 abstract: >
-  Residential solar energy installations are a critical component of the energy transition. Nonetheless, just a small fraction of all eligible households have installed solar panels. We investigate household willingness to pay (WTP) for a residential rooftop solar system using a stated preference approach and including socio-demographic, ideological, economic, and psychological factors. We implemented an online survey of 580 households in New York State who had not previously adopted a residential solar system. Respondents were presented with hypothetical PV systems with varying upfront costs and monthly savings that allow us to understand discount rates and payoff preferences. This allowed us to explore not only WTP and how it varies across the factors described above, but also how those factors affect discount rates and attitudes towards uncertain future payoffs from the systems. We limit our analysis to New York to control for variation in solar adoption policies from state to state, but these results are broadly generalizable to other US States and, with caveats, to advanced industrialized democracies. We find an average WTP of $7388.5 for installing a residential rooftop solar system. Respondents' WTP is $11.66 in upfront costs for each additional $1 of average monthly savings. We also find substantial heterogeneity in WTP and in trade-offs between upfront costs versus savings. Age, children in households, income, education, motivation, and ideology are all independent factors associated with WTP. We discuss a range of implications for policy and marketing to further increase rates of adoption in the future.
-pdf: "https://github.com/sachin-b-badole/sachin-b-badole.github.io/blob/09cd942ee6d3fa1a4ee8a0c18e8fece150cadea6/files/WTP%20for%20solar%20adoption%20-%20Badole%20et%20al.pdf"
-website: "https://www.sciencedirect.com/science/article/abs/pii/S0140988324004110"
+  Local opposition to renewable energy project development is intensifying across the U.S., driven by concerns about property rights, land use, agriculture production, aesthetics, and visual impacts. This study uses data from a discrete choice experiment in the northeastern U.S.—a region experiencing particularly acute opposition—to examine residents’ preferences for siting wind and solar energy projects. We explore the impact of landscape changes, agricultural production, industry cooperation, and financial compensation to various stakeholder groups. We make three key contributions. First, we provide the first stated preference assessment comparing the relative importance of aesthetic and agricultural concerns, finding that visual impacts are the main source of opposition. Second, we systematically test differentiated payment mechanisms that vary compensation across landowners, local communities, and individual residents in onshore renewable energy projects. We find that residents are willing to accept lower individual payments when communities and landowners are adequately compensated, revealing a strong preference for shared community benefits that inform the design of effective compensation schemes. Third, through latent class analysis, we identify distinct preference segments and estimate group-specific marginal willingness-to-accept (MWTA) thresholds. A tradition-oriented minority emerges as the critical constraint. While comprising less than one-fifth of respondents, this group demands markedly higher payments and is illustrative of the core of organized opposition that can block project advancement. Quantifying the compensation premium and engagement strategies needed to secure support from this conservative subgroup offers actionable guidance for developers and policymakers navigating the partisan dynamics that increasingly obstruct renewable energy deployment. 
+pdf: ""
+website: ""
 ---
