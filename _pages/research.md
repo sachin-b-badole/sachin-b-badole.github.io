@@ -1,9 +1,9 @@
 ---
 permalink: /research/
 title: "Research"
-layout: archive
+layout: single
 author_profile: false
-classes: research-page
+classes: wide research-page
 ---
 ## Publications
 
