@@ -11,7 +11,7 @@ classes: research-page
 {% for p in pubs %}
 **{{ p.title }}**  
 {{ p.authors | join: ", " }}  
-{% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); ({{ p.volume }}); ({{ p.pages }}){% endif %}
+{% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); {{ p.volume }}; {{ p.pages }}{% endif %}
 
 <details class="paper-details">
   <summary>
