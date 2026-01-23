@@ -2,8 +2,8 @@
 title: "Co-adoption of solar panels and electric vehicles: Evidence from California"
 authors:
   - "Sachin B. Badole"
-  - "Jeremy Firestone"
-  - "George Parsons"
+  - "[Jeremy Firestone](https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/jeremy-firestone/){:target=\"_blank\"}"
+  - "[George Parsons](https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/george-parsons/){:target=\"_blank\"}"
   - "[Martin D. Heintzelman](https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/){:target=\"_blank\"}"
 year: 2025
 type: "working paper"
