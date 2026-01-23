@@ -5,6 +5,40 @@ layout: single
 author_profile: true
 classes: wide
 ---
+## Publications
+
+{% assign pubs = site.publications | where: "type", "publication" | sort: "year" | reverse %}
+{% for p in pubs %}
+**{{ p.title }}**  
+
+{{ p.authors | join: ", " }}  
+{% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); ({{ p.volume }}){% endif %}
+
+<details class="paper-details">
+  <summary>
+    <span class="toggle-label">
+      <span class="show">Show abstract</span>
+      <span class="hide">Hide abstract</span>
+    </span>
+    <span class="links">
+      {% if p.pdf %}
+        | <a href="{{ p.pdf }}" target="_blank">Published Version</a>
+      {% endif %}
+      {% if p.website %}
+        | <a href="{{ p.website }}" target="_blank">Journal Page</a>
+      {% endif %}
+    </span>
+  </summary>
+
+  <div class="abstract-text">
+    {{ p.abstract }}
+  </div>
+</details>
+
+<br>
+{% endfor %}
+
+---
 ## Working Papers
 
 {% assign wps = site.publications | where: "type", "working paper" | sort: "year" | reverse %}
@@ -41,43 +75,6 @@ classes: wide
 
 <br>
 {% endfor %}
-
----
-
-## Publications
-
-{% assign pubs = site.publications | where: "type", "publication" | sort: "year" | reverse %}
-{% for p in pubs %}
-**{{ p.title }}**  
-
-{{ p.authors | join: ", " }}  
-{% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); ({{ p.volume }}){% endif %}
-
-<details class="paper-details">
-  <summary>
-    <span class="toggle-label">
-      <span class="show">Show abstract</span>
-      <span class="hide">Hide abstract</span>
-    </span>
-    <span class="links">
-      {% if p.pdf %}
-        | <a href="{{ p.pdf }}" target="_blank">Published Version</a>
-      {% endif %}
-      {% if p.website %}
-        | <a href="{{ p.website }}" target="_blank">Journal Page</a>
-      {% endif %}
-    </span>
-  </summary>
-
-  <div class="abstract-text">
-    {{ p.abstract }}
-  </div>
-</details>
-
-<br>
-{% endfor %}
-
-
 
 ---
 
