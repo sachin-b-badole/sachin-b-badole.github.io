@@ -368,7 +368,7 @@ body {
   margin-bottom: 0.75rem;
 }
 
-/* Limit Research page*/
+/* Limit Research page
 .abs-btn {
   font-size: 0.8rem;
   padding: 2px 8px;
@@ -389,7 +389,7 @@ details[open] .abs-btn::after {
 }
 
 
-/* Abstract toggle styling */
+/* Abstract toggle styling 
 
 details.abs-block {
   margin-top: 0.3rem;
@@ -407,22 +407,65 @@ details.abs-block summary {
   list-style: none;
 }
 
-/* remove default triangle marker */
+/* remove default triangle marker 
 details.abs-block summary::-webkit-details-marker {
   display: none;
 }
 
-/* When open, show "(hide)" */
+/* When open, show "(hide)" 
 details.abs-block[open] summary::after {
   content: " (hide)";
   font-weight: normal;
 }
 
-/* Abstract paragraph */
+/* Abstract paragraph 
 details.abs-block p {
   margin-top: 0.4rem;
   font-size: 0.9rem;
   line-height: 1.4;
+}
+*/
+
+
+/*Date: jan 21, 2026 11pm*/
+/* Inline action bar for Research page */
+.paper-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+
+/* Style for Summary toggle */
+.paper-actions summary {
+  cursor: pointer;
+  padding: 2px 8px;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+  display: inline;
+}
+
+.paper-actions details[open] summary::after {
+  content: " (hide)";
+}
+
+/* Hide default triangle */
+.paper-actions summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Put separator before everything except first item */
+.paper-actions a::before {
+  content: "|";
+  margin: 0 6px;
+  color: #666;
+}
+
+/* Do not show separator before first link if abstract not present */
+.paper-actions a:first-of-type::before {
+  content: "";
+  margin: 0;
 }
 
 
