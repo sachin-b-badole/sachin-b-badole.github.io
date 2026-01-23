@@ -432,7 +432,7 @@ details.abs-block p {
 /* ---------- Research: abstract toggle + links ---------- */
 
 .paper-details {
-  margin-top: 0.3rem;
+  margin-top: 0.1rem;
   font-size: 0.95rem;
 }
 
@@ -484,73 +484,28 @@ details.abs-block p {
 
 /*Change font size*/
 .paper-details summary {
-  font-size: 0.9rem;   /* adjust — try 0.85rem, 0.8rem, etc. */
+  font-size: 0.8rem;   /* adjust — try 0.85rem, 0.8rem, etc. */
 }
 
 .pub-citation {
   font-size: 0.8rem;     /* try 0.85 or 0.8 */
-  line-height: 1.2;      /* tighter vertical space */
+  line-height: 0.8;      /* tighter vertical space */
   color: black;          /* optional */
 }
 
 .pub-authors {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   line-height: 1.1;
 }
 
 .pub-journal {
   font-size: 0.8rem;
   font-style: italic;
-  line-height: 1.1;
+  line-height: 1.5;
 }
 
 
 
-/* ===== Research Page Compression ===== */
-
-/* Title line */
-.archive__item-title {
-  margin-bottom: 0.15rem;
-  line-height: 1.25;
-}
-
-/* Author line */
-.archive__item-authors,
-.archive__item .authors {
-  margin-top: 0;
-  margin-bottom: 0.1rem;
-  font-size: 0.7rem; /* optional */
-}
-
-/* Journal / metadata line */
-.archive__item-metadata {
-  margin-top: 0;
-  margin-bottom: 0.1rem;
-  font-style: italic;
-  font-size: 0.7rem;
-}
-
-/* Links (PDF, Abstract, Preprint, etc.) */
-.archive__item-links,
-.paper-links,
-.show-abstract,
-.paper-link {
-  margin-top: 0.1rem;
-  margin-bottom: 0.1rem;
-}
-
-/* Compress gap between different papers */
-.archive__item {
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.1rem;
-  border-bottom: none; /* remove line if exists */
-}
-
-/* Reduce whitespace under section headings (Working Papers, Publications) */
-.page__content h2, .page__content h3 {
-  margin-top: 0.7rem;
-  margin-bottom: 0.4rem;
-}
 
 
 
