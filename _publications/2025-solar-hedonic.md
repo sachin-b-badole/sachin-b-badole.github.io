@@ -1,5 +1,5 @@
 ---
-title: "Willingness to pay for solar adoption- Economic, ideological, motivational, and demographic factors"
+title: "Rooftop Solar or a New Kitchen - Do Rooftop Solar Systems Capitalize into Home Values?"
 authors:
   - "Sachin B. Badole"
   - "Martin D. Heintzelman"
