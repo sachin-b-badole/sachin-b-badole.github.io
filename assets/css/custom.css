@@ -453,10 +453,24 @@ details.abs-block p {
   display: none;
 }
 
-/* When open, show "(hide)" after the label */
+/* When open, show "(hide)" after the label 
 .abs-inline[open] > summary::after {
   content: "Hide abstract";
+}*/
+
+/* Show/Hide abstract toggler */
+.paper-bar summary .hide {
+  display: none;
 }
+
+.paper-bar details[open] summary .show {
+  display: none;
+}
+
+.paper-bar details[open] summary .hide {
+  display: inline;
+}
+
 
 /* Abstract text under the bar */
 .abs-inline > p {
