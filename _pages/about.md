@@ -1,13 +1,12 @@
 ---
 permalink: /
-title: ""
+title: "Welcome! I am Sachin."
 author_profile: true
 classes: wide
 redirect_from: 
   - /about/
   - /about.html
 ---
-## Welcome! I am Sachin.
 
 I am a Ph.D. candidate in Environmental Economics at the University of Delaware, studying how households value environmental amenities and adopt renewable energy technologies, with a focus on rooftop solar, electric vehicles, water quality, and behavioral responses to policy incentives.
 
