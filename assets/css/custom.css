@@ -488,8 +488,19 @@ details.abs-block p {
 }
 
 .pub-citation {
-  font-size: 0.9rem;     /* try 0.85 or 0.8 */
+  font-size: 0.8rem;     /* try 0.85 or 0.8 */
   line-height: 1.2;      /* tighter vertical space */
   color: black;          /* optional */
+}
+
+.pub-authors {
+  font-size: 0.8rem;
+  line-height: 1.1;
+}
+
+.pub-journal {
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.1;
 }
 
