@@ -9,6 +9,7 @@ year: 2025
 type: "working paper"
 order: 4
 status: "Under Review"
+funding: "U.S. DOE"
 abstract: >
   This study examines consumer preferences for co-adoption of residential rooftop solar photovoltaic (RPV) systems and electric vehicles (EVs) in California, including factors that influence consumer adoption decisions. Using a contingent-behavior experiment with 1,311 California households, grouped by prior technology adoption ownership. Respondents evaluated hypothetical EVs or RPVs contracts, depending on their adoption status. A fractional logistic regression model was applied to assess co- adoption decisions. Results show that EV owners are more likely to adopt RPV systems, and RPV owners are more likely to adopt EVs. RPV or EV adoption is more likely among wealthier, male, liberals, larger, and Democratic households, with EV adoption also among younger, Asian, and medium-income respondents. EV adoption preference declines as costs increase (similar for RPVs), charging time increases, and driving range decreases. These results clarify households’ preferences and the factors driving co-adoption, providing guidance for policies aimed at reducing carbon emissions.
 ---
