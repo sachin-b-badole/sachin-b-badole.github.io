@@ -10,8 +10,7 @@ classes: wide research-page
 {% assign pubs = site.publications | where: "type", "publication" | sort: "year" | reverse %}
 {% for p in pubs %}
 **{{ p.title }}**
-{% if p.status %} ({{ p.status }}){% endif %}
-{{ p.authors | join: ", " | markdownify | replace: "<p>", "" | replace: "</p>", "" }}  
+{{ p.authors | join: ", " | markdownify | replace: "<p>", ""}}  
 {% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); {{ p.volume }}; {{ p.pages }}{% endif %}
 
 <details class="paper-details">
