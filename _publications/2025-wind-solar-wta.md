@@ -1,5 +1,5 @@
 ---
-title: "Heterogeneity in Preferences for Wind and Solar Development (R&R - ERSS)"
+title: "Heterogeneity in Preferences for Wind and Solar Development"
 authors:
   - "[Ruirui Dang](https://sites.google.com/view/ruirui-dang/about-me?authuser=0){:target=\"_blank\"}"
   - "Sachin B. Badole"
