@@ -1,0 +1,7 @@
+{% for nav in site.data.navigation.main %}
+  <li class="masthead__menu-item">
+    <a href="{{ nav.url | relative_url }}"{% if nav.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+      {{ nav.title }}
+    </a>
+  </li>
+{% endfor %}
