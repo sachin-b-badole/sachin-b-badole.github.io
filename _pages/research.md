@@ -60,6 +60,7 @@ classes: wide research-page
       {% if p.preprint %}
         | <a href="{{ p.preprint }}" target="_blank">Preprint Version</a>
       {% endif %}
+      {% if p.funding %} | ({{ p.funding }}){% endif %}
     </span>
   </summary>
 
