@@ -3,7 +3,7 @@ title: "Willingness to pay for solar adoption: Economic, ideological, motivation
 authors:
   - "Sachin B. Badole"
   - "Stephen Bird"
-  - "Martin D. Heintzelman"
+  - "[Martin D. Heintzelman](https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/){:target=\"_blank\"}"
   - "Lisa Legault"
 year: 2024
 type: "publication"
