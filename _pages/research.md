@@ -10,7 +10,7 @@ classes: wide research-page
 {% assign pubs = site.publications | where: "type", "publication" | sort: "year" | reverse %}
 {% for p in pubs %}
 **{{ p.title }}**  
-{{ p.authors | join: ", " }}  
+{{ p.authors | join: ", " | markdownify | replace: "<p>", "" | replace: "</p>", "" }}  
 {% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); {{ p.volume }}; {{ p.pages }}{% endif %}
 
 <details class="paper-details">
@@ -76,7 +76,7 @@ classes: wide research-page
 {% assign wips = site.publications | where: "type", "work in progress" | sort: "order" | reverse %}
 {% for p in wips %}
 **{{ p.title }}**  
-{{ p.authors | join: ", " }}
+{{ p.authors | join: ", " | markdownify | replace: "<p>", "" | replace: "</p>", "" }}
 
 {% if p.pdf %}[Draft]({{ p.pdf }}){% endif %}
 {% if p.website %} | [Project Page]({{ p.website }}){% endif %}
