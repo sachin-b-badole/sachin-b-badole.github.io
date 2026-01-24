@@ -2,9 +2,9 @@
 title: "Willingness to pay for solar adoption: Economic, ideological, motivational, and demographic factors"
 authors:
   - "Sachin B. Badole"
-  - "Stephen Bird"
+  - "[Stephen Bird](https://carsey.unh.edu/person/stephen-bird){:target=\"_blank\"}"
   - "[Martin D. Heintzelman](https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/){:target=\"_blank\"}"
-  - "Lisa Legault"
+  - "[Lisa Legault](https://www.lisalegault.com/){:target=\"_blank\"}"
 year: 2024
 type: "publication"
 journal: "Energy Economics"
