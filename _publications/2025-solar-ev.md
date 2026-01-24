@@ -1,5 +1,5 @@
 ---
-title: "Co-adoption of solar panels and electric vehicles: Evidence from California"
+title: "Co-adoption of solar panels and electric vehicles: Evidence from California (Under Review)"
 authors:
   - "Sachin B. Badole"
   - "[Jeremy Firestone](https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/jeremy-firestone/){:target=\"_blank\"}"
