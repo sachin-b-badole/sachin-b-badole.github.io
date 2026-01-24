@@ -1,10 +1,10 @@
 ---
 title: "Heterogeneity in Preferences for Wind and Solar Development"
 authors:
-  - "Ruirui Dang"
+  - "[Ruirui Dang](https://sites.google.com/view/ruirui-dang/about-me?authuser=0){:target=\"_blank\"}"
   - "Sachin B. Badole"
-  - "Charles Towe"
-  - "Martin D. Heintzelman"
+  - "[Charles Towe](https://are.uconn.edu/person/charles-towe/){:target=\"_blank\"}"
+  - "[Martin D. Heintzelman](https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/){:target=\"_blank\"}"
 year: 2026
 type: "working paper"
 order: 3
