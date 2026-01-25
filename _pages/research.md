@@ -3,7 +3,7 @@ permalink: /research/
 title: "Research"
 layout: archive
 author_profile: false
-classes: wide research-page
+classes: research-page
 ---
 ## Publications
 
