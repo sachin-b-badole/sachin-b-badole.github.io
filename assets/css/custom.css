@@ -533,4 +533,18 @@ You can force the nav to remain expanded instead of collapsing into hamburger:*/
 }
 
 
+/* Change background colors per page */
+.home-page {
+  background-color: #fafafa;   /* light gray */
+}
+
+.research-page {
+  background-color: #ffffff;   /* white */
+}
+
+.teaching-page {
+  background-color: #f7faff;   /* light bluish */
+}
+
+
 
