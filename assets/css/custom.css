@@ -548,3 +548,43 @@ You can force the nav to remain expanded instead of collapsing into hamburger:*/
 */
 
 
+
+/*STEP 2: Disable mobile-specific CSS behavior --> STEP 1 is in _includes/head.html */
+/* Disable mobile layout — force desktop layout everywhere */
+@media (max-width: 1200px) {
+
+  body {
+    min-width: 1200px;
+  }
+
+  #main {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sidebar {
+    float: left;
+    width: 300px;
+  }
+
+  .archive,
+  .page__content {
+    width: calc(100% - 320px);
+    float: right;
+  }
+
+}
+
+/*STEP 3: Disable hamburger menu (three lines icon)*/
+/* Remove mobile hamburger menu */
+.greedy-nav__toggle {
+  display: none !important;
+}
+
+/*STEP 4: Prevent font resizing on mobile*/
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
