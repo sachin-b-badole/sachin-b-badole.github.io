@@ -589,13 +589,5 @@ html {
 }
 
 
-/*Align bio-text*/
-/* Justify bio paragraphs on the home (archive) page */
-.layout--archive.home-page p {
-  text-align: justify !important;
-  text-justify: inter-word;
-  line-height: 1.4;
-}
-
 
 
