@@ -588,3 +588,11 @@ html {
   text-size-adjust: 100%;
 }
 
+
+/*Align bio-text*/
+.page__content p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.4;
+}
+
