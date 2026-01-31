@@ -23,7 +23,8 @@ I use hedonic models, the stated-preference approach, and laboratory/survey expe
       <li>Energy Economics</li>
       <li>Experimental Economics</li>
       <li>Environmental Valuation</li>
-      <li>Urban Economics</li>
+      <li>Survey Design & Analysis</li>
+      <li>Policy Analysis</li>
     </ul>
   </div>
 
