@@ -26,7 +26,7 @@ author:
   avatar           : "Sachin_IMG_0140.jpg"
   name             : "Sachin B. Badole"
   pronouns         : # example: "she/her"  
-  bio              : "Environmental Economist"
+  bio              : # "Environmental Economist"
   location         : "Newark, DE, USA"
   employer         : "University of Delaware"
   uri              : # URL
