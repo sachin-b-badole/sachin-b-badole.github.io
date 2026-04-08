@@ -1,5 +1,5 @@
 ---
-title: "Willingness to pay for solar adoption: Own vs Lease"
+title: "Willingness to Pay for Residential Rooftop Solar Systems: Evidence on Ownership versus Leasing Contracts"
 authors:
   - "Sachin B. Badole"
   - "[Martin D. Heintzelman](https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/){:target=\"_blank\"}"
