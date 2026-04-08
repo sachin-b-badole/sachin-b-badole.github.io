@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Welcome! I am Sachin."
-#author_profile: true
+author_profile: true
 layout: archive
 classes: home-page
 redirect_from: 
