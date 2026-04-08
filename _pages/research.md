@@ -2,7 +2,7 @@
 permalink: /research/
 title: "Research"
 layout: archive
-author_profile: false
+author_profile: true
 classes: research-page
 ---
 ## Publications
