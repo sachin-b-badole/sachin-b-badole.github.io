@@ -3,8 +3,8 @@ title: "Co-adoption of solar panels and electric vehicles: Evidence from Califor
 authors:
   - "Sachin B. Badole"
   - "[Jeremy Firestone](https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/jeremy-firestone/){:target=\"_blank\"}"
-  - "[George Parsons](https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/george-parsons/){:target=\"_blank\"}"
   - "[Martin D. Heintzelman](https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/){:target=\"_blank\"}"
+  - "[George Parsons](https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/george-parsons/){:target=\"_blank\"}"
 year: 2026
 type: "publication"
 order: 1
