@@ -7,7 +7,7 @@ authors:
   - "[Martin D. Heintzelman](https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/){:target=\"_blank\"}"
 year: 2025
 type: "working paper"
-order: 4
+order: 1
 status: "R&R - Transportation Research Part D: Transport and Environment"
 funding: "Funded by U.S. DOE"
 abstract: >
