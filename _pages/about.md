@@ -21,7 +21,7 @@ I use hedonic property value models, the stated-preference approach, and laborat
     <h3>Research Interests</h3>
     <ul class="interest-list">
       <li>Energy Economics</li>
-      <li>Experimental and Behavioral Economics</li>
+      <li>Experimental & Behavioral Economics</li>
       <li>Non-market valuation</li>
       <li>Survey Design & Analysis</li>
       <li>Housing and Urban Economics</li>
