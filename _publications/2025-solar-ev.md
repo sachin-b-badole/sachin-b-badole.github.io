@@ -6,7 +6,7 @@ authors:
   - "[George Parsons](https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/george-parsons/){:target=\"_blank\"}"
   - "[Martin D. Heintzelman](https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/){:target=\"_blank\"}"
 year: 2025
-type: "working paper"
+type: "publication"
 order: 1
 status: "R&R - Transportation Research Part D: Transport and Environment"
 funding: "Funded by U.S. DOE"
