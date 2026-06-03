@@ -23,6 +23,7 @@ I use hedonic property value models, the stated-preference approach, and laborat
       <li>Energy Economics</li>
       <li>Experimental Economics</li>
       <li>Environmental Valuation</li>
+      <li>Non-market valuation</li>
       <li>Survey Design & Analysis</li>
       <li>Policy Analysis</li>
     </ul>
