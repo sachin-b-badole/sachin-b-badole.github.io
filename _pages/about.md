@@ -24,7 +24,7 @@ I use hedonic property value models, the stated-preference approach, and laborat
       <li>Experimental and Behavioral Economics</li>
       <li>Non-market valuation</li>
       <li>Survey Design & Analysis</li>
-      <li>Policy Analysis</li>
+      <li>Housing and Urban Economics</li>
     </ul>
   </div>
 
