@@ -7,6 +7,7 @@ authors:
   - "[Lisa Legault](https://www.lisalegault.com/){:target=\"_blank\"}"
 year: 2024
 type: "publication"
+order: 2
 journal: "Energy Economics"
 volume: 136
 pages: 107703
