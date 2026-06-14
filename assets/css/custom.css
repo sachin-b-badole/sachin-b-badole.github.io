@@ -591,23 +591,17 @@ html {
 
 /* For Abstract Tabe*/
 
-.paper-details-inline {
-  display: inline;
-}
-
-.paper-details-inline summary {
-  display: inline;
-  cursor: pointer;
-  list-style: none;
-}
-
-.paper-details-inline summary::-webkit-details-marker {
+.abstract-box {
   display: none;
+  margin-top: 0.4rem;
+  padding: 0.5rem;
+  border-left: 3px solid #ccc;
+  font-size: 0.9rem;
+  line-height: 1.4;
 }
 
-.paper-details-inline .abstract-text {
-  margin-top: 0.5rem;
+.abstract-box.show {
+  display: block;
 }
-
 
 
