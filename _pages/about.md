@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome! I am Sachin."
+title: ""
 author_profile: true
 layout: archive
 classes: home-page
