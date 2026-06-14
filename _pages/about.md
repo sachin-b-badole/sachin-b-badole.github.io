@@ -37,7 +37,7 @@ function toggleJMPAbstract() {
 
   if (box.style.display === "block") {
     box.style.display = "none";
-    btn.textContent = "Abstract";
+    btn.textContent = "Show Abstract";
   } else {
     box.style.display = "block";
     btn.textContent = "Hide Abstract";
