@@ -617,16 +617,13 @@ html {
 
 /* Journal Link color*/
 
-.journal-link {
-  color: #666666;
-  text-decoration: none;
+.journal-link,
+.journal-link:visited,
+.journal-link:hover,
+.journal-link:active {
+    color: #666666 !important;
+    text-decoration: none;
 }
-
-.journal-link:hover {
-  color: #000000;
-  text-decoration: underline;
-}
-
 
 
 
