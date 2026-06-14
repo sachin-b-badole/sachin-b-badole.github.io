@@ -17,7 +17,7 @@ My work has been published in leading field journals, including *Energy Economic
 
 <p class="jmp-line">
   My job market paper examines Delaware's residential solar housing market.
-  <button type="button" class="abstract-toggle" onclick="toggleJMPAbstract()">Abstract</button>
+  <button type="button" class="abstract-toggle" onclick="toggleJMPAbstract()">Show Abstract</button>
   |
   <a href="/files/JMP.pdf" target="_blank">Paper</a>
 </p>
