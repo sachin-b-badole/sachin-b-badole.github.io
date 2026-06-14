@@ -15,6 +15,22 @@ I use hedonic property value models, the stated-preference approach (DCE & CV), 
 
 My work has been published in leading field journals, including *Energy Economics* and *Transportation Research Part D: Transport and Environment*.
 
+
+My work has been published in leading field journals, including
+<a href="https://www.sciencedirect.com/journal/energy-economics"
+   target="_blank"
+   class="journal-link">
+   <em>Energy Economics</em>
+</a>
+and
+<a href="https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment"
+   target="_blank"
+   class="journal-link">
+   <em>Transportation Research Part D: Transport and Environment</em>
+</a>.
+
+
+
 <p class="jmp-line">
   My job market paper examines Delaware's residential solar housing market.
   <button type="button" class="abstract-toggle" onclick="toggleJMPAbstract()">Show Abstract</button>
