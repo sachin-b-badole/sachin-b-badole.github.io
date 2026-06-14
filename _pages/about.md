@@ -13,9 +13,6 @@ I am a Ph.D. candidate in Environmental Economics at the University of Delaware.
 
 I use hedonic property value models, the stated-preference approach (DCE & CV), and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My research provides evidence to inform environmental and energy policy by examining consumer adoption, valuation, and perceptions of environmental risks.
 
-My work has been published in leading field journals, including *Energy Economics* and *Transportation Research Part D: Transport and Environment*.
-
-
 My work has been published in leading field journals, including
 <a href="https://www.sciencedirect.com/journal/energy-economics"
    target="_blank"
@@ -28,7 +25,6 @@ and
    class="journal-link">
    <em>Transportation Research Part D: Transport and Environment</em>
 </a>.
-
 
 
 <p class="jmp-line">
