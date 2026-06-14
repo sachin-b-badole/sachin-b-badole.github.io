@@ -15,22 +15,35 @@ I use hedonic property value models, the stated-preference approach, and laborat
 
 My work has been published in leading field journals, including *Energy Economics* and *Transportation Research Part D: Transport and Environment*.
 
-<p>
-My job market paper examines Delaware's residential solar housing market.
-<a href="javascript:void(0);" onclick="document.getElementById('jmp-abstract').classList.toggle('show');">
-[Abstract]
-</a>
-|
-<a href="/files/JMP.pdf" target="_blank">[Paper]</a>
+<p class="jmp-line">
+  My job market paper examines Delaware's residential solar housing market.
+  <button type="button" class="abstract-toggle" onclick="toggleJMPAbstract()">Abstract</button>
+  |
+  <a href="/files/JMP.pdf" target="_blank">Paper</a>
 </p>
 
-<div id="jmp-abstract" class="abstract-box">
+<div id="jmp-abstract" class="jmp-abstract">
   This paper estimates the capitalization of residential rooftop solar photovoltaic
   systems into housing prices using a unique property-level dataset for Delaware.
   By combining solar installation records with repeat-sales and cross-sectional
   housing transaction data, the analysis examines how solar premiums evolve over
   time and the extent to which homeowners recover their solar investment upon sale.
 </div>
+
+<script>
+function toggleJMPAbstract() {
+  var box = document.getElementById("jmp-abstract");
+  var btn = document.querySelector(".abstract-toggle");
+
+  if (box.style.display === "block") {
+    box.style.display = "none";
+    btn.textContent = "Abstract";
+  } else {
+    box.style.display = "block";
+    btn.textContent = "Hide Abstract";
+  }
+}
+</script>
 
 <span style="color:darkred; font-weight:bold;">I am on the 2026–2027 job market.</span>
   
