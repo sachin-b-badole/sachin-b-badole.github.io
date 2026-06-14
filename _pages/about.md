@@ -19,8 +19,6 @@ My job market paper examines Delaware’s residential solar housing market.
 
 <p>
 My job market paper examines Delaware’s residential solar housing market.
-<a href="/files/JMP.pdf" target="_blank">[Paper]</a>
-</p>
 
 <details class="paper-details">
   <summary>
@@ -39,6 +37,8 @@ My job market paper examines Delaware’s residential solar housing market.
   </div>
 </details>
 
+<a href="/files/JMP.pdf" target="_blank">[Paper]</a>
+</p>
 
 
 <span style="color:darkred; font-weight:bold;">I am on the 2026–2027 job market.</span>
