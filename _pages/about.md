@@ -15,12 +15,10 @@ I use hedonic property value models, the stated-preference approach, and laborat
 
 My work has been published in leading field journals, including *Energy Economics* and *Transportation Research Part D: Transport and Environment*.
 
-My job market paper examines Delaware’s residential solar housing market.
-
 <p>
 My job market paper examines Delaware’s residential solar housing market.
 
-<details class="paper-details">
+<details class="paper-details-inline">
   <summary>
     <span class="toggle-label">
       <span class="show">Abstract</span>
@@ -37,7 +35,7 @@ My job market paper examines Delaware’s residential solar housing market.
   </div>
 </details>
 
-<a href="/files/JMP.pdf" target="_blank">[Paper]</a>
+| <a href="/files/JMP.pdf" target="_blank">Paper</a>
 </p>
 
 
