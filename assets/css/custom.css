@@ -591,17 +591,25 @@ html {
 
 /* For Abstract Tabe*/
 
-.abstract-box {
+.jmp-line {
+  margin-bottom: 0.3rem;
+}
+
+.abstract-toggle {
+  display: inline-block;
+  border: 1px solid #999;
+  background: #fff;
+  padding: 2px 7px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #1a0dab;
+}
+
+.jmp-abstract {
   display: none;
-  margin-top: 0.4rem;
-  padding: 0.5rem;
-  border-left: 3px solid #ccc;
+  margin-top: 0.35rem;
   font-size: 0.9rem;
   line-height: 1.4;
+  text-align: justify;
 }
-
-.abstract-box.show {
-  display: block;
-}
-
 
