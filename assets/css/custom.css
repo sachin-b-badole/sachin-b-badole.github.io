@@ -589,5 +589,25 @@ html {
 }
 
 
+/* For Abstract Tabe*/
+
+.paper-details-inline {
+  display: inline;
+}
+
+.paper-details-inline summary {
+  display: inline;
+  cursor: pointer;
+  list-style: none;
+}
+
+.paper-details-inline summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-details-inline .abstract-text {
+  margin-top: 0.5rem;
+}
+
 
 
