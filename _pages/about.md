@@ -16,28 +16,21 @@ I use hedonic property value models, the stated-preference approach, and laborat
 My work has been published in leading field journals, including *Energy Economics* and *Transportation Research Part D: Transport and Environment*.
 
 <p>
-My job market paper examines Delaware’s residential solar housing market.
-
-<details class="paper-details-inline">
-  <summary>
-    <span class="toggle-label">
-      <span class="show">Abstract</span>
-      <span class="hide">Hide Abstract</span>
-    </span>
-  </summary>
-
-  <div class="abstract-text">
-    This paper estimates the capitalization of residential rooftop solar photovoltaic
-    systems into housing prices using a unique property-level dataset for Delaware.
-    By combining solar installation records with repeat-sales and cross-sectional
-    housing transaction data, the analysis examines how solar premiums evolve over
-    time and the extent to which homeowners recover their solar investment upon sale.
-  </div>
-</details>
-
-| <a href="/files/JMP.pdf" target="_blank">Paper</a>
+My job market paper examines Delaware's residential solar housing market.
+<a href="javascript:void(0);" onclick="document.getElementById('jmp-abstract').classList.toggle('show');">
+[Abstract]
+</a>
+|
+<a href="/files/JMP.pdf" target="_blank">[Paper]</a>
 </p>
 
+<div id="jmp-abstract" class="abstract-box">
+  This paper estimates the capitalization of residential rooftop solar photovoltaic
+  systems into housing prices using a unique property-level dataset for Delaware.
+  By combining solar installation records with repeat-sales and cross-sectional
+  housing transaction data, the analysis examines how solar premiums evolve over
+  time and the extent to which homeowners recover their solar investment upon sale.
+</div>
 
 <span style="color:darkred; font-weight:bold;">I am on the 2026–2027 job market.</span>
   
