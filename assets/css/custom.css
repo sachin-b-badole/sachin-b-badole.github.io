@@ -613,3 +613,21 @@ html {
   text-align: justify;
 }
 
+
+
+/* Journal Link color*/
+
+.journal-link {
+  color: #666666;
+  text-decoration: none;
+}
+
+.journal-link:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+
+
+
+
