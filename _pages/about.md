@@ -17,6 +17,30 @@ My work has been published in leading field journals, including *Energy Economic
 
 My job market paper examines Delaware’s residential solar housing market.
 
+<p>
+My job market paper examines Delaware’s residential solar housing market.
+<a href="/files/JMP.pdf" target="_blank">[Paper]</a>
+</p>
+
+<details class="paper-details">
+  <summary>
+    <span class="toggle-label">
+      <span class="show">Abstract</span>
+      <span class="hide">Hide Abstract</span>
+    </span>
+  </summary>
+
+  <div class="abstract-text">
+    This paper estimates the capitalization of residential rooftop solar photovoltaic
+    systems into housing prices using a unique property-level dataset for Delaware.
+    By combining solar installation records with repeat-sales and cross-sectional
+    housing transaction data, the analysis examines how solar premiums evolve over
+    time and the extent to which homeowners recover their solar investment upon sale.
+  </div>
+</details>
+
+
+
 <span style="color:darkred; font-weight:bold;">I am on the 2026–2027 job market.</span>
   
 <div class="three-col-row">
