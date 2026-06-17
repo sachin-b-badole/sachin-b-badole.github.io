@@ -9,7 +9,7 @@ year: 2026
 type: "publication"
 order: 1
 journal: "Transportation Research Part D: Transport and Environment"
-status: "Accepted"
+<!--status: "Accepted"-->
 volume: 158
 pages: 105450
 funding: "Funded by U.S. DOE"
