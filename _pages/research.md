@@ -26,6 +26,10 @@ classes: research-page
       {% if p.website %}
         | <a href="{{ p.website }}" target="_blank">Journal Page</a>
       {% endif %}
+
+      {% if p.funding %}
+        | {{ p.funding }}
+      {% endif %}
     </span>
   </summary>
 
