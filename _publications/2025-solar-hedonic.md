@@ -1,5 +1,5 @@
 ---
-title: "Rooftop Solar or a New Kitchen - Do Rooftop Solar Systems Capitalize into Home Values? (Job Market Paper)"
+title: "Rooftop Solar or a New Kitchen - Do Rooftop Solar Systems Capitalize into Home Values? (JMP)"
 authors:
   - "Sachin B. Badole"
   - "[Martin D. Heintzelman](https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/){:target=\"_blank\"}"
