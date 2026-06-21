@@ -65,6 +65,9 @@ classes: research-page
         | <a href="{{ p.preprint }}" target="_blank">Preprint Version</a>
       {% endif %}
       {% if p.funding %} | {{ p.funding }}{% endif %}
+      {% if p.pwebpage %}
+        | <a href="{{ p.pwebpage }}" target="_blank">Project Web Page</a>
+      {% endif %}
     </span>
   </summary>
 
