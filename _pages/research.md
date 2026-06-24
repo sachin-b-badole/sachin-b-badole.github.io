@@ -68,6 +68,9 @@ classes: research-page
       {% if p.pwebpage %}
         | <a href="{{ p.pwebpage }}" target="_blank">Project Web Page</a>
       {% endif %}
+      {% if p.paper %}
+        | <a href="{{ p.paper }}" target="_blank">Paper</a>
+      {% endif %}
     </span>
   </summary>
 
