@@ -31,9 +31,9 @@ and
   My job market paper examines Delaware's residential solar housing market.
   <button type="button" class="abstract-toggle" onclick="toggleJMPAbstract()">Show Abstract</button>
   |
-  <a href="/files/JMP_Sachin_Badole.pdf" target="_blank">Paper</a>
+  <a url: "/files/JMP_Sachin_Badole.pdf" target="_blank">Paper</a>
 </p>
-
+    
 <div id="jmp-abstract" class="jmp-abstract">
 This paper estimates the impact of residential rooftop solar systems on housing resale prices in Delaware and examines heterogeneity across system attributes. We use single-property transactions and solar installation data to estimate solar price premiums using both hedonic and repeat-sales models. We find that homes sold with solar systems have an average price premium of 7.6% ($22,379) when not controlling for recent home renovations, and 5.6% ($16,613) when controlling for them. These premiums exceed the average net installation cost of solar systems in Delaware ($14,781), implying that homeowners recover approximately 112%–125% of their solar investment upon resale. Capitalization is strongest within the first three years after installation and declines thereafter. Accounting for discounting, this is in line with expectations. However, solar value does not disappear with age; rather, it shifts from capitalized resale value to realized electricity bill savings. We also find that premiums are higher for owned than leased systems and are larger in metropolitan areas. The findings provide new evidence on solar capitalization in a low-adoption market and offer insights for homeowners, policymakers, and solar market stakeholders.
 </div>
