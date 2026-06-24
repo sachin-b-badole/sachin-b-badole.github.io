@@ -61,7 +61,7 @@ function toggleJMPAbstract() {
     <h3>Research Interests</h3>
     <ul class="interest-list">
       <li>Energy Economics</li>
-      <li>Non-market valuation</li>
+      <li>Non-market Valuation</li>
       <li>Survey Design & Analysis</li>
       <li>Housing & Urban Economics</li>
       <li>Experimental & Behavioral Economics</li>
