@@ -9,11 +9,9 @@ classes: research-page
 
 {% assign pubs = site.publications | where: "type", "publication" | sort: "year" | reverse %}
 {% for p in pubs %}
-
 **{{ p.title }}**{% if p.status %} ({{ p.status }}){% endif %}  
-{{ p.authors | join: ", " }}  
-{% if p.journal %}
-_{{ p.journal }}_{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}{% if p.year %} ({{ p.year }}){% endif %}
+{{ p.authors | join: ", " }} 
+{% if p.journal %}_{{ p.journal }}_{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}{% if p.year %} ({{ p.year }}){% endif %}
 {% endif %}
 
 
