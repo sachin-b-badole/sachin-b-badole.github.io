@@ -23,8 +23,7 @@ and
 <a href="https://www.sciencedirect.com/journal/transportation-research-part-d-transport-and-environment"
    target="_blank"
    class="journal-link">
-   <em>Transportation Research Part D: Transport and Environment</em>
-</a>.
+   <em>Transportation Research Part D: Transport and Environment</em></a>.
 
 
 <p class="jmp-line">
