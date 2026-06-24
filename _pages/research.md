@@ -12,8 +12,8 @@ classes: research-page
 **{{ p.title }}**{% if p.status %} ({{ p.status }}){% endif %}  
 {{ p.authors | join: ", " }}  
 {% if p.journal %}_{{ p.journal }}_{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}{% if p.year %} ({{ p.year }}){% endif %}{% endif %}
-
 {% endfor %}
+
 
 <details class="paper-details">
   <summary>
