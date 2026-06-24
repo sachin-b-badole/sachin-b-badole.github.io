@@ -7,10 +7,9 @@ classes: research-page
 ---
 ## Publications
 
-{% assign pubs = site.publications | where: "type", "publication" | sort: "year" | reverse %} 
-
-{% for p in pubs %} 
-**{{ p.title }}**{% if p.status %} ({{ p.status }}){% endif %} {{ p.authors | join: ", "}} 
+{% assign pubs = site.publications | where: "type", "publication" | sort: "year" | reverse %}
+{% for p in pubs %}
+**{{ p.title }}**{% if p.status %} ({{ p.status }}){% endif %}<br> {{ p.authors | join: ", "}}<br> 
 {% if p.journal %}_{{ p.journal }}_ {{ p.volume }}, {{ p.pages }}, ({{ p.year }}){% endif %}
 
 <details class="paper-details">
