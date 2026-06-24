@@ -628,8 +628,15 @@ html {
 
 /* remove vertical space in publications section in research page*/
 
-.page__content p {
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
+.pub-entry {
+  margin-bottom: 0.4rem;
+}
+
+.pub-entry p {
+  margin: 0;
+}
+
+.pub-entry br {
+  line-height: 1.2;
 }
 
