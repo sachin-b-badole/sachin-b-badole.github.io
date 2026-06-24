@@ -16,7 +16,6 @@ classes: research-page
 _{{ p.journal }}_{% if p.volume %}, {{ p.volume }}{% endif %}{% if p.pages %}, {{ p.pages }}{% endif %}{% if p.year %} ({{ p.year }}){% endif %}
 {% endif %}
 
-{% endfor %}
 
 <details class="paper-details">
   <summary>
