@@ -69,7 +69,7 @@ classes: research-page
         | <a href="{{ p.pwebpage }}" target="_blank">Project Web Page</a>
       {% endif %}
       {% if p.paper %}
-        | <a href="{{ p.paper }}" target="_blank">Paper</a>
+        | <a href="{{ p.paper | relative_url }}" target="_blank">Paper</a>
       {% endif %}
     </span>
   </summary>
