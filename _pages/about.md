@@ -29,9 +29,11 @@ and
 
 <p class="jmp-line">
   My job market paper examines Delaware's residential solar housing market.
-  <button type="button" class="abstract-toggle" onclick="toggleJMPAbstract()">Show Abstract</button>
+  <button type="button" class="abstract-toggle" onclick="toggleJMPAbstract()">
+    Show Abstract
+  </button>
   |
-  <a url: "/files/JMP_Sachin_Badole.pdf" target="_blank">Paper</a>
+  <a href="/files/JMP_Sachin_Badole.pdf" target="_blank">Paper</a>
 </p>
     
 <div id="jmp-abstract" class="jmp-abstract">
