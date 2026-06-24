@@ -11,7 +11,7 @@ redirect_from:
 
 I am a Ph.D. candidate in Environmental Economics at the University of Delaware. My research examines how households value environmental amenities and adopt renewable energy technologies, with a focus on residential rooftop solar, electric vehicles, large-scale wind & solar farms, water quality, and behavioral responses to policy incentives.
 
-I use hedonic property value models, the stated-preference approach (DCE & CV), and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My research provides evidence to inform environmental and energy policy by examining consumer adoption, valuation, and perceptions of environmental risks.
+I use hedonic property value models, the stated-preference approach (DCE & CV), and laboratory/survey experiments to study willingness-to-pay and policy design. I also use large-scale rich administrative and real estate data to answer core questions about environmental amenities. My research informs environmental and energy policy by examining consumer adoption, valuation, and perceptions of environmental risks.
 
 My research has been published in leading field journals, including
 <a href="https://www.sciencedirect.com/journal/energy-economics"
