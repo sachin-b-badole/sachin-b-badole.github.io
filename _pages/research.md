@@ -8,9 +8,10 @@ classes: research-page
 ## Publications
 
 {% assign pubs = site.publications | where: "type", "publication" | sort: "year" | reverse %} 
+
 {% for p in pubs %} 
 **{{ p.title }}**{% if p.status %} ({{ p.status }}){% endif %} {{ p.authors | join: ", "}} 
-{% if p.journal %}_{{ p.journal }}_ ({{ p.year }}); {{ p.volume }}; {{ p.pages }}{% endif %}
+{% if p.journal %}_{{ p.journal }}_ {{ p.volume }}, {{ p.pages }}, ({{ p.year }}){% endif %}
 
 <details class="paper-details">
   <summary>
