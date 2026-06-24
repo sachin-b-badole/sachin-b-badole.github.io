@@ -627,4 +627,16 @@ html {
 
 
 /* remove vertical space in publications section in research page*/
+.paper-citation {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  line-height: 1.25;
+}
 
+.paper-citation strong {
+  font-weight: 700;
+}
+
+.paper-citation em {
+  font-style: italic;
+}
