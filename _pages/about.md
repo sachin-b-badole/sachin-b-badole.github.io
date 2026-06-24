@@ -72,7 +72,7 @@ function toggleJMPAbstract() {
     <h3>Education</h3>
     <ul class="education-list">
       <li>
-        <strong>Ph.D. in Environmental Economics</strong>, expected 2027<br>
+        <strong>Ph.D. in Environmental Economics</strong>, expected may 2027<br>
         University of Delaware, USA
       </li>
       <li>
@@ -89,7 +89,7 @@ function toggleJMPAbstract() {
   <div class="three-col-block">
     <h3>References</h3>
     <ul class="reference-list">
-      <li><a href="https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/" target="_blank">Prof. Martin D. Heintzelman</a></li>
+      <li><a href="https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/martin-heintzelman/" target="_blank">Prof. Martin D. Heintzelman (Advisor)</a></li>
       <li><a href="https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/george-parsons/" target="_blank">Prof. George Parsons</a></li>
       <li><a href="https://www.udel.edu/academics/colleges/ceoe/departments/smsp/faculty/anna-birkenbach/" target="_blank">Prof. Anna Birkenbach</a></li>
       <li><a href="https://www.udel.edu/academics/colleges/canr/departments/applied-economics-and-statistics/faculty-staff/christina-mcgranaghan/" target="_blank">Prof. Christina McGranaghan</a></li>
