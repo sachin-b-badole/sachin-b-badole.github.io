@@ -72,7 +72,7 @@ function toggleJMPAbstract() {
     <h3>Education</h3>
     <ul class="education-list">
       <li>
-        <strong>Ph.D. in Environmental Economics</strong>, expected may 2027<br>
+        <strong>Ph.D. in Environmental Economics</strong>, Expected May 2027<br>
         University of Delaware, USA
       </li>
       <li>
